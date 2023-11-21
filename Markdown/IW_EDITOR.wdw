@@ -1,0 +1,2517 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_EDITOR
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_EDITOR
+ identifier : 0x23e9fc8e1010493b
+ internal_properties : CAAAAAgAAADL3UDmJOKFlhyULZSrq0iLUzfTrMEXsDFN5CRsCV6Vemnwv5imywrX2PiX82lFgrE7OKv51M3I7iCBCDZHdKkUQKoLPTDqBsT6TGh+f0L5qQInAk3vJy+eRIK2CuaZ5nR6ZZ/IZyZqFeiDW6S7VwJ2ULmMRxanUMqG3OUz1v/Na/dZiCqAVmW9BuwxIbJ8GY8qlKs3ZIdkdyCblrBnKv77cJMJD1L/dVlXNN9ipYyQp7k/ZR0va63TnIz4Et9gKzkui7PQzPQmlCIeVGB3F+p8nv8vudM7EExDmTsEfk6AqDFsMWPhOC8zu32OGvZP1tZosp5ohdATosgUi/E+noLAdiIZGwixty6BooMfMcIFKPnxHOrXVqFbsacdlq2W6C8z4BZCboOnUepgyI0T2aOArGYOia6bQL/mxwgzJK+A6tx9Smxu9VyUFsyQrwuzPpnbQJv0z5EKuLMK3ivwwJSvNYWI9B4zl/HiZ3sKsiaCxhqtsyTcHWjiV9DJ1/l7IQlqZv15/libEalKarG1k+UhqfNZLJLeQfEkLYoQPqi07MAIxRJufHktjpgtQSm7HYXVsLlo3LU0P9Vf5uiPRYccx9dBDH6rPelpqnH+lvphxpAR/qe60OeqNQPxHH8OSsmFpMqEXafOq+jQLWgsJSZi1/zU0/v9BH1PuMRTwgivSZyHWusLxX2NdaPQWuCqdkbfxFryz3kCiDCcPmfMrlkHl1g2JTUDOK+6H5xiaPbIMqbPnE4GP4y5ho1vxWCAfGQGMmBQJN6NIVfKKIppBUsLMWvGjdv4+W+ay+gQfmNqZH5c2ZozZpbzKPuHJGN0tUnXErjbvmFLu96LS0h69kEIdFXiff+OvnOclr3VvmLje/ttWCAAEIGigwTRQGXNqGdZUpxrGsnQvwRXILwj039SwdyIR4XjdoRUbh2/HTo3yPDnykhvnIO7eHZmaskEy0cseebsn7Y3iDwj9CfMPgYg912xho5GTPGrsFGCWKuzJn+yjqpk420hs6KHibJMQPp1bWV6k+sVxUOGF4w=
+ properties :
+  width : 840
+  height : 480
+ controls :
+  -
+    name : IW_EDITOR
+    identifier : 0x23e9fc8e1022493b
+    internal_properties : CAAAAAgAAADbMMbYPCQaRk980hVq8FfJrh1puV9rv/BMmEN+Lw8Wfnov0jUS+Bc1PUdpO5fg2r70TGCqjmao8+Ks13C8rBSr9GezvKuD1z2puhvjQTU7Qjw2VorVHIQtls/YHnVWeMmBAJJsCIcwobYlE6JfZowJM59WfvNig3U7OGoku840/lFHg6ZqRA4lnGEGYzPKrRCcs4zvkdD2jAvNBt8Co0XWz8YrZACpfEpixtL+aJvkHPC4wCdW0F15NUn4mFrqY8yXa5dwNz7zwryC6+phfo6/I46fi30BxpYSwwu/sKZM6ICOdsLi2nyVTdLLJjNFN6tXKyaYwy9a+cQl/2ocFq61pR7exTb+awy8lpupEs/JsrHeFZAicyLkyDqvOZhWxUwoQouN2B79QeS7AbgRHoAUWIBiGxrp+Y7h5Xdldq0Xz6wqvmGiRatkbnDs1XwMgp6CKKi7OMMHkxJb7xF78lZbOawm+qXxJaBt8jo=
+    properties :
+     width : 840
+     height : 480
+    controls :
+     -
+       name : BTN_COMMAND_COPYHTML
+       identifier : 0x23e9fc8e1024493b
+       internal_properties : CAAAAAgAAAAra8n/IJ4G5Lc47XOIm7PgsBCb2HhGnG8mcudFplGQNjQYESHPuVBOnBFVS48UEG7dxTVWr3KZbNlJryAEx7awC0g8VTr6tzFckm0GLjb69DGwlVpazUoWdFcWw/cCEmHLbO0ICT2BW/aU0W+kWvWh8MbDiPNWH/FXFwyVAlK+M1ay9yU4xkTfdfmAiTtJEuSZFkwb7iKJYzdfQKJKqwbWUXMTjv6qLKrdjCYJyp4Bu14PUWCeg0W6SHeTgmOuEpxcozSx61rn1u37LziHI6xPNS4qhAVrqZn0z3x9/CghajOuImeqAErL+v6vKaJRt0ilBChvkdHsoMjuLWQeGp+soDGFLwqd7BR13n8FCGzHH6RwhihXF6jBeTLNPdIkblwON0D+Ju3mH1ZWrbotqDlcwx5tqXpmycJ4IuLK8mt8hMdVWcTQ91frg6ZJ71ETjidxgjMYcbpfvz3dziI0+M2GKarb6xf8bVx0f6PVGZ3ZvqHkjp59oNmo4asvwYuXrY8cnJmid7vbbXev+pXOZ0rU8oAvN7MVSB28DRD19g4XoS5Dqg1Ilhggm1kl/PGokBAUWDJtBhcOTk0vetX912RngT6bN13JB4cNH/p7O418SgMr9aZyi7hMxJeBnrC9THx6DLmVpU5Ken/B5JYlV1HzLwx9OgrGo5aOTSrJSXNLH25g3byttOR/B341zhZDo/b4+FmnvNCsPtD2WHdNAIXqIVfnS/z+FOl1vbIAp45NlkNF61p89jfszMY7QUDQ2j5bGHQi9xF/0CiT/+8lNAjrx/NrgUR4v5958fPP5cYrgc5FiJfoqzg/CHj2rOJtEjMEu3lz7E6n7oc5/7y8buC6O06yJuWM8Z0lJPtaL3DtNThaY79KkQRsTWZ0ERcTxpJEag33p3HxpuLl9P/CAeGDHBcZH/laJwM/pumMmFwIrynfx/X24iVT3ihy0V8Bq4X+u2OzZDe8w5uhCy0I993DyGFBg9BJKYfbhvPZuEYYOqXZ7RRWNafmceX9fvbZGS0cS8uyiw5bi9nC6hIYTGMCT8POK/ESD/JGmJIVuMctI7ZYXHCbhijrN0cWy5TblNTiGGQKYzr8crJl6EUTSL7dYAUhu4HSD7NW3r0pv64BGekiMtuAb3KIJd65VctyNa/4nbMZn/b7dea3U6NwT9iPTG9kcTaxL61R5s1/nV8V8SA+lt8t9IN7gW1z3PslaFAsjYo0sdbgZKqdEczfQD21xpYFF4cJ1JSQo1uz+Lrr1ZsjSxlDi54VuMW7e4SZYT2XxRED084=
+       properties :
+        x : 738
+        y : 7
+        width : 42
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            ToClipboard(utf8tostring(MarkdownToHTML(EDT_MARKDOWN)))
+            ToastDisplay("Copy to clipboard", toastShort, vaMiddle, haCenter, 0x333333)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_COMMAND_EXPORT
+       identifier : 0x23e9fc8e1025493b
+       internal_properties : CAAAAAgAAAAeA+i1uzf9K9oIfuAx7b2cpQifB7cpAQcIIqhDnwSuoqeZ3nHYdm7znYnVYKfgZvTpLaRhrsGtcvzQlgPEJ4e1Se+8S6Bo4egt3zE0Xb1unkoA8CmShc3v2uOCFjLdPT78xRU28UNVP1GX5IwpsHNoYPzvATAjWpBLJH+FPaGat1a4yjAO0jZDCLgDDsIcsJuXtl8b0dWjdQOArpnqTnnsutefv1mAZxxzZcGKhqryfOjCPCPasHwXSpz//hJ3ReE6Jd27bb+PsE/kqSln6o+ncaU0QOe/5TAda5x1OJwvKILFQF2lrP5Vn1ypRLP+HjCul5JuOXpzna9ZgjXdG/X8V/iRHxVmNB2dt9s/YrUA+zolsOUX/Xhr/4gGLwjagcyD3NAjzk1SnkVgF6ZkFiPEwiUPJkTx6rU4U4zeWtOfS7F5BtEygDnY8GnAwlVDPcqUWSxWE7gtgjMgUQMdcqF8OrTn8ZyYqVvFZIGWCboqfHH/zN4XpKU5UykPCJ1wNEXYtT9EOq9N98rSwYfSegxr5GoMN3AfjJeaBnYG9YcevoksvivQw37U6+/eQuXjrNNHHcn+PMT9Ex2XfKzG/B4InHgWgGIalUSJZGkggmZWp96lUdY6NQRe8zUhc6VQqk9W1dmsBwLCHpxL8QjDpwqGwBGb0p/jrAWXOmQeTS0BdSRBBZJcG2+aRI/DxIBJv+lHYwYpYV3bs/2vbahJaSFL5+JrLyuQxiqqLuICSAtolVwREjZN9eB7HkzGKFysnNirxBP142MN+nzrRLAXHMxTG5vwdrzAI98fC4g4i0jNO85ZR4ZQPdIFLmpz3WLZ6i/wg+ashlLUhkEwmc08+RMXts106c2M+YTbbJMdiJ4yS2ZCgLSWQZWvN17gk+uF6Tg9QULqC4V0dqdxlMMb85HBxmUUoeL5VzxizhyrNqsZLcGCY0ryL0qN/RMG1B9g2KBY7RDajgd+YWasS5dALXtxhtmC0HDtXldnzmZWoH9bgyfA1OuajHLp9JF9ME90npWEg/4Pwa7a3P6e7a4d8XuOalnB7wnuP1a44PAIIDGpNXh0lUXfhDYMKzLWbZw4hIBCFbMknFq/YlMKCWu6TWtzt/R1eRf+YaX0mDx+1EwxMXqp7F4715Jeh2RT7cKNazNX/t957yyiTB757fncM6AXWHFft0/gccyQmmgYW0q33xVoIGtflsVX53BE43/lfSeu/idzjrDLZ0FNzNlVxMtHx5ahv0D008evVKUYbQo=
+       properties :
+        x : 786
+        y : 7
+        width : 42
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            MySelf.Pushed = True
+            MENU_EXPORT.OpenContextMenu(MySelf.X, MySelf.Y + MySelf.Height)
+            
+            MySelf.Pushed = False
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_COMMAND_COPY
+       identifier : 0x23e9fc8e1026493b
+       internal_properties : CAAAAAgAAAB0T9p4qT2GUr8N4bVT+RyGAWkgT+3RceXwN26evLlr5ZD3q1CE2n3cGdftrcW8B2eigsUB8iPHKMCxyRX96hmq7mICJh4JAbuueUaJhClFrLCsMTDgnM9QXrb3f/uVls/0vzXXWHU1XqJWTb3ZTjECgmW+dj5IzK/9VHHYNx3G2vccLVVmHmaoJZEtzXR/0eaqipwjkgHP7UesKiPpHcx8DXB9E9uzEtA3qlso5UvK6DNksP55ipYXllg+JZzy1XFnGSUQwQFc/BwmWNtVI+hWG9STCs/AdTlse2bXGvP3ZQuXLoTsVjLetGAZuldQzETuXnjs/MU5p592piOS6tllMndqytIq6BzWMWgZN79XvAKUpL+DJGYPxFzvjfwCmwAx7v+T3T0c2Ki6W0alsUrIVsFzHk2ZByZry3fU4y31rU+7p4gTYg3g/t5057xS689rpoXdu1Y2uxc1Xd0hc+DaGm7Nrrs7KyHCE6lm1/7GPwyVoHXfoyRIUp1oOKRiNrGQf89nqZ16hqcwYfpVNB33cqrR/ssdwF8sD1dsdTm6fJiRwyWKgOP4Z3rkxuYD6vDJq3isdcEQjnjqzBKHNPwp2IEeHYfwMuxYwZAbrDBf25lme5Fw/4dYsWYAv2vtJ/qJf8ewg/2SE49f/X+GjLTpJsSEVfWRXz1foBLN0lW6HmXCjAfr2R5vqYn9hpdiMmqnmanpsR4oNkNvUX4TADyQar9LbMhK8tzdtrjEbYNsB5f4e3fqf9TfR1SGfQk3keO1e6fEEu3mpiOA7ymk3iocBHMoJ4brKnJziWd0Niv6NiPcQNZHxk9zCKb2jRVfAzutL8ftoh28qVfEykiWQk1xdLnM5+sxj6adX1+e6cWdsg00cXe9mLhEcPhSPYbbBfAO2qKBt+QCozQGNIsmcxMLTMQIeLMcZtWunPzcNa72kNivMoXg0zWpParUrwmxVm6bYbGEpWmMSKxl5UmUYHgcjywml8GNf3koNE5ur7OVRno4M4cN4dHfBEAkua9dygDqG0ziUoVNusD8vqu5tn8HOhlLhnQbkIsuH31F7mKmttldacA4pGDmsRD+kvaFGCSXVZwVjeliZl/Ehl6Nx8wSDke3CxveljtyllUIyjgmyNiPKDuPzqK8GzJkOLtA1A8uDIc0EGzi/EBmE6EcGfAnJUzxNpgZzprf58fzXy8R9ROAqNeSsbwiQN0vih+e7HN72IcS9USBDSf5Ofn3jaFtqpphBg==
+       properties :
+        x : 690
+        y : 7
+        width : 42
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            ToClipboard(EDT_MARKDOWN)
+            ToastDisplay("Copy to clipboard", toastShort, vaMiddle, haCenter, 0x333333)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : LAYOUT_TOOLBAR
+       identifier : 0x23e9fc8e1027493b
+       internal_properties : CAAAAAgAAAB4FC1Oeh+P/rPFaHOHTURjV9NWhLyRxqRoRHnYobr73Qqa7JYWsiSLq1exQVbsfjMUoLKtsBqXF5EfpwcF66Es76XNiLGbR+boGnMb0CH69iK4rXEHuYFmtY4iXnOZKYvzZI1sljpV19m1N3rrygex+z+iLNy/SMrt/QNwCL3VHe2fLjeEcwI9ePee5oviakQfcjRK0KUCTLjk4N0pPC/+pvFgigClw8q4ltCboa0HvPbzahKqmEpFzzdPm5GdLgWmmXB8lkURV/xIFohP5cdEQNRJhizIhBP0B8GyzQ5Iyok7B5k1vCDhOlgK2UrNJr03DvJmbyDcP/O+rccvTTOT5XJN0/CStq/BISwTEe3oI2xXrRTsbOrQt8MZuMifCRQLozQkIWsoHvyudd0Fo6VtI9Oo6xCN6X/JebI8UMov/AWo+yLojn0gkkL7377tV10ZawZzo050UIpQZ9lQt1C7BEEw17WySczDCSPYmheMzplQUc5DFa0mcUPhS5+pb4RE167jW7qS2BzB1MIHKPf4EsLawekk6oXZqlW0RifChexS2XomQZDxUDo6gE1YbO2l6GO8R9DIat/a5sCVXJsejKjJFrXGRZKNEN86IPtN175NZFP4ajbGi1dpUU+/IIETzxcPDMkWN76ExeunH7zVXEH9zV/4otLbHQfMTKv3dJNOBxsp6gqVZdGettTJ8C6ep+CsCJRQuqKpgwFh
+       properties :
+        x : 11
+        y : 8
+        width : 612
+        height : 42
+       cells :
+        -
+          internal_properties : CAAAAAgAAADMzAz3zvZr8CgWOtSSs3h6I8vBPpSruVttNRJwTGJU9eGf2otlBEgY7tM4z89xa+RtaI/sCqvJ3vWFPXov2d3yiDObU7REeSYVxmhqKJyBkSnAMTZ1IUDvst1vTuBt5VMIsHbvtEEmNR0YHAuquT7scGXrGG/R/VFi3wiD
+          controls :
+           -
+             name : BTN_COMMAND_OPEN
+             identifier : 0x23e9fc8e1029493b
+             internal_properties : CAAAAAgAAACkV7XbMPg2c5Q0Qo/QwZ0LMya2Fd+MAtwTqAXa58ZoDNKSG5AxeudkRaMzbZCAc7+a7tL9YPEWXYRZ+H+m/bfoeEEsnTEQjJ/25tNXLbSJf6bt0Fo3Wns0A8AFRh43S5A9ISgIZekfjhafISG67s9jUUaeuKjp1zXXlLo34+HaUPn4dYwpp3Ii1AI46J1dlLrTM9UsWhFaxX1xhyLfmbJ+pu9yuMamCbTbVRXkj6zBu6R3u21nyCvZ8PeJpwZoi/Aw6a0vPJAY5mf58i0C7WXe0p95Hlfvbsxu9df52QQCIErz7grw31M8NunChylxblUGBjrJnWA7PzgvG0vO1Zr+Gx5Rj52veT2Qu0lqHPwJiuh3Hx/T5UvrPoC1SVf5iSnfiNRuaKvA9pzXIx4eRxnai3Dpmb0A1SHU5QH5W0dX9rMsVI8LsGQZ/z12BJE8Wy6kf7gzTVKf4SVc+tS64zCGGtHEHTui5/lr5ny0Lkv20AxzFRppOw1bKJvG0L5r8d3Ifq/onfbcVviWO1ludEH47g2a7Pq6+UNdePWO7Mhf7Xj1X7Fvujhi/WdlNYiQfI36kC7I5un2SzEuta3lCTmA7ZLgkLHFhqWfdOP66ehL1buQpPjBTZU9JTLrh9YIhfteLGztcioExZoJbwCu2TCWe9S1XwH5krfgI99v45zxSEWjJrSuGaRwUkC7bOy/k5ugJBHC3uUcvxcT6hak0eJ/3d/IiDNtCC/H30KIdN+hMri5jaTLDnDbvQ6gYcXlzZKLHdGjIQiusJKBYC3HnVWgsS7iPqGF6ybc6K3NtyuOOxcSQUOfM9V4STf31LdnYePRo8nGieyMnZAhJyPTL9n8H6CVp0OdBQzlbAQq0moRpOcmKVfPqXFkIcMzk1JbSINWKThjBvUFnRJNsrwwHiGqvFCmzk9QGdgeHNuVVJ85dnii71EEj+9xDV4TN+qw5CuIp+86PB7AgGNiqtcirGAF3j2bv+VBSZ3JcK/wDhkAt05XQ2c8GSWRLXw9RH5dyqd5zv3GAu6soRSEgqoV1GH2lyAfHcZ1QRY1joQA5Lm/QIAmDQl+aijubE+zIbxrrhtAdU+xnYhUGYh7o2fHf7xe+J8wrJwaLj30Tt3XzES4huAZFb2fPUBBBFbSxguGwonUsxGDPUeVpA==
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  sFile is string
+                  
+                  // Opens the file picker
+                  sFile = fSelect("", "", "Open...", "All files (*.*)" + TAB + "*.*" + CR + "Markdown documents (*.MD)" + TAB + "*.MD", "MD", fselExist)
+                  if sFile = "" then
+                  	return			
+                  end		
+                  
+                  // Loads the file
+                  Load( sFile )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAAD1N+K28QNyDkYeltOR/NUyfnFtksWYCi8xv3OdDMoWDnedNnoBpcgvumLN7vigd8aCs7W3IF6hJyqkrQMFMAQEztPMZMeaQg4uMIzPQ0icx9P0uIfkJQPx3ekpgwPhmGXelIUYW8MxrdDKRMRVmY8SEpGSId6sP272TrSa3g==
+          controls :
+           -
+             name : BTN_COMMAND_SAVE
+             identifier : 0x23e9fc8e102b493b
+             internal_properties : CAAAAAgAAAAfk28AdKxv8YEGaGu0ROwXpduQBlefVtJM23cQwDiZK/H6RieCvdrceIDviYGa2LaKysoTBDaNh8/7yVJhJQbrWU5R5DxyAz+s8IMWi+pW+naQ/7CUAVJBrVa+oMTJ0Ice96c1Cd22LprdYx9w6+xEj9vE1XuGIzV8bQC6A7SIbY+2TaP3NQxoTjdsUgkP0hvPdTjvbBbdP5wEsmawKhcHFsKSYvcoQsm90TJeemBFaBAZ9hheBps2IZmqQHLwDHjxRzE9xgPbkcQZF/DxJP/odNaSfaDWL91ZMSBjgeh/OHYZWHSIP8r+fabf5QNa0AWW7L08z40fT97PNQWwo3HihSTGG/5gZ/D4yb9Go8f5oysruaVTGUHx6nUarj7RD1D3PD6c28JcJ6CXZ09zDv3dCqyrl+HDESUmbkQGAW3mYhz6KLZBxoma0Uu97ozNHZQ7Q+y9Fyu12747uGwCXlL05B5twxQQD2f+CuEc36smHmNFC1Js++pP1fr7hpxBb4lV5AXOfxKU/ESNyhCNJUyD9OSG1I7kr3pRMkuqX2q/GmF1CgIAKV69w4MS1sIDk1mGONPZfSSN7dSUAmacWLhhX+xPgcfdFZBzeAefAjzMUSQveutpXIWf1upd3aPVMpDSIzMCVC/LoDkDz80Mrlc04kpNNhdiHMsF3eo//qzx0xcJn2MoUcbLF0sso1ol5gM+cS0BY6l/j9eaJVh+6YaaoNqYvJojSvbvQYbr/2WjkmAG0+TZ3iOJh4FoOqXtNy6eTblpyu7iDYbllPT8YKhk+kkFYAG5zIR2raBF1GnzWlykM2/upt3eK90IRYtXknsZKFeo77YjFCXraRvWoMEM5P7WLO1fsYyaq7ibMp0U+Up0UCPMWKb4mn5oAUNUR0AVPbIc+YqWBgPsq2zjXABr/3FewnJldCrUvWp3ntrOLQ1TGEG8uVxtlL5w51T8C9o9Gu3FyYQUYpqUmzb3sk7FfTbmMSwA9yyfM8cuVd3f6fIpbUvu1TId4Ezx3PNDf0bKs2a3p7I/5gtZYHQG3WAXlLFIyF16+g6FL7cBjHmZX/XJ/wWXbhWAhCMi7GHQX+1UZa5VhQLSDMcX8/CxSG5Y01MKfJqsk87LJPJBVQpg
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  if KeyPressed(kpShift) then
+                  	
+                  	// Picker
+                  	Save( "" )
+                  	
+                  else
+                  	
+                  	// Saves
+                  	Save( ( EDT_MARKDOWN.Extra.CurrentFile ) )
+                  end
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAAAV+3MeDXN03nUgbG42x24FT59SEjS3PRA3T0ZM3s/xQmGzxL5M98CWuD4OQ+w/vyDrh9sn43kLuOOx/5J3JrNct5KjhzGtYmulyMMPM8Xi8SZYkc0LLTqJo3CALmNme1LpbhZD0LsAQWDT11t8alP4gWhDO2orsbytl3y7rcyamQ==
+          controls : []
+        -
+          internal_properties : CAAAAAgAAABHCG98gD5aoVMvY0I4vCruWnnFst7CMqohpmBVFjK2oQnQXBE99pKnXjfZANeVL15CN4wp4mOwhQXSWTVcPp2Ltk8w0pD+z+6y3eBg9zG3MbSLzraRjZdmDV0habVEfut816zEbzR0InjH5PKHjJ/cgJ44aoHOgvJWIgHgVUuOck/V
+          controls :
+           -
+             name : BTN_COMMAND_BOLD
+             identifier : 0x23e9fc8e102e493b
+             internal_properties : CAAAAAgAAAAhJljH06dmVc8uxpi5/m7hgKxJOj1bP/2b5Wf4q9rKY3JbSD1VsVym6PeKzmAX8yVZrv+mkbCpR8kbazbRmeXlrANgNZm0A3kRkqFGfOcPJGV26mq9XzAaLQvzgqavgREvRpszMVqvh64vslYN4imp92+P+2kQ+asHcgB2IYdlL5rok1p7ks+VKJHIhE/YukuG6/etNtfQjvhCY9sGtNLQsws41KU0YdTsz1VBKRkMfJUE1rW0Zp23jZSbH/MKDwseyiwD+JZShXCfaX/4QBb5YFOY7hoZYqAruXJyEKuNFuef3QrZQbwb1XKcebHAYOe2ir9rOGpaZ1+Gkih/ggd46yk1gCFciQzDxNnJ06EvD6Erdp24s683a1Z5BdQMkt0MaLdtUJPg+0VCViFM4shjWq133KYaS47bz6p0WcuraIgkgXeQ8BxwMLtAffovu80MeA4cjKgOwB+H3kLtR6zehyvvk6v/vg/hsVLLecVrwND79xWd/wCYhSV5NZdhtHZhI7UGU3exXhjGj/C7+1XRQILWRwhvxxKAadRfG7GtPHKfS8PsEGSDHEwocPr0k+IeH+mCCT4i+CNCmNhQsZyxKXUpvKkd9pUimON/mEiZXGWSAifuz2ZOgp2uryM8Waud6sNB+XS86pmTKX8pkuRMI+JVs9bAebQQLVUMTiP70PNG/VINxqq3e2btuBXNYP2phnpEvfNC6sLibM0Xa5fGmhgpwsL/sfNo2asyouvqUJxgEiIJ5qwiJM+jl3Y3QvIU9x4zaqD9tMktmf9z7K/kROc6gp/W7gZmiDE4KZj2yGEBJcQ8cs4GExqiFYcAV5ZkN5Er+LO1uLmuVbFgdQ/3nxkLYHnZmmV6er99wv/PSeeI2L1PPOO/6Xz8Yb8CSmy5zn1YNd5KMN/12jRcBSdKuSYg26w1X+HWSyAHOO+xkvZcBdrhoAjDXPHZ8MVSdKwgd88aBHyHmo6D9f+VC3QQn5sWEumWNhDb2KBYW8yzZMOZ9I/9ciZDjPb2taYHxWy02NLgwYPAi6lqrLWweTJsvHrvnzsklMwxNpQzZKlhbQOwWIntU2w24fWiAx51iP8C6EwtNrQsVjqYr3d0NS47P7W4lsWy3I+/WdKwn/ylTQVpsVgDYcKoQVtdycaDDh4AI50S65Fu4CcoIA==
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  SelectionApply( bold )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAACvMZxsa/HNyq5ASCuJhEE8RtsRcPUS0l/FDXn5WPbeOCNb6hjdr9inhmBjGvSoZ8j6HTF1BMSBs47iu0tl8K+fUwix+QYRg/PjY5fEmsMbThiR+bjXUCgmNrhgQEqsV6SHDTJtClIK5gk1L2EE1NrtR857qjkfrdxg+O6gJA==
+          controls :
+           -
+             name : BTN_COMMAND_ITALIC
+             identifier : 0x23e9fc8e1030493b
+             internal_properties : CAAAAAgAAACPP2uLZ0quvSlNbt+yd14J97JTj97Tn/GO5ovOCLtsqzqi6hr1IO3pP6DtHRA8sbcPjsUMcEkb1J6ufjMDDgCkE6c2Z7uOqvX1dFNp8ZUqRn4aIteKlAJdOSVniliuGVXCHNP0B1OA8X4pFEOk4aF+d3j1VJ98FU2YhGava5kbHOqDvIgOZO+IEli/Q7vBfejTIRSk7zHDt2lnwDf/6034t+6/mv/RbajlUQNJvA+7XkS7N+TFldlYtylpLOeD1oyGHOR+rEG/egG28RC/+nR4+V3KyQdVWrcH7vmDCWbo+LDM0ZYdBLp+52WB3Lh2VBNSa0SCR3uZWqQEkAp8j0F5uFNhRyNjyGn3xXFlGGpHd8bzf3EiCT0E5mBJBhAaPFMv0T0v3A9wKTLwAaBSrBxtRXsLwDpp64L0g4l1aUALrWjre86R6helG5GGyUaYw5/pBW2+bTlb6rxhIazx5v88oDo6U6XzSyMrZdaefl5CFWPnVweYBjb9ZJ88sdTw21NACe5r6Yg8g0w6MgunT7uaIBYeDIkf7A5binWvUiuooVMjsHUyQUAl4RNznSKWCGA/H+XwrfMg3jkz0v9xoHzuHpSzcl9iwBcErxvetREjH2gnIKnwUIhGxmSgoNYNm8o4pZOVFb2StFPqIf66tarJ4C9FX1IvO8r2CjmLb0q5uZjvocbJS6Rn9wepIxIAfNTEz04KS5RUJNzf9qKuMMNVmSNFzBQ6Mz9AwFHTBc40Ib2RogLBYcACqFJF8hf+6P1b0PiPbs/LsJma9QAa58VD9/howofzUmAovwsfri0wg3ya20w0g3p6+y+GgoZvcZMlnIfdkgZhFNGX2zydmDccyCyf1if0QHXe+aE20eZb2PKTSvGL4Q8ZhxW2tqtWJ179iNxzkP7ZD7LNWWyWj8wmpxih9BVh8iB1+Sv5PFl6hK4azD8WEgfUKe0uDsUITa6AwTA1d+ReKRQSmypClgQL0tvhZKPp1z8UzEVaL1WjreitImk3ibw9RlFWwVzmkW4H0Swkbzu8T3E1aLpxhrKXCzucQyApeVmFTivIHQQ3nRIEMuogkRYxQv4ypmV16sjH6eC086DUFTczN3gRnFNawvoUZNHijYsOCftx5A6ghUMaru4n0xQ=
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  SelectionApply( Italic )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAACnOZRks8mFZu6ACGsZFLFMTvMZKL1q8v8dZZEhoK624FOriki9j1DvJjDzurT456jixXmNLLxxgxa+W6olELi4SqApDSp9L69fF4MIxpdPciQFrYzrPFSyoqxMZCbAO/gz8Waxvs5GwjXpG3UAyO6B49J/Pp1n9aQ4AOaoLA==
+          controls :
+           -
+             name : BTN_COMMAND_COLOR
+             identifier : 0x23e9fc8e1032493b
+             internal_properties : CAAAAAgAAACOh0qCyLCOXjr1RXtdpBs9ktNdo4N8GrmunP9mIq++VForK2UcoEtblbsWBigKrjY8ADykyJfh03aQWtwfYUr9UkZB7Wrq4xKZo+k28GmfpzI2mn7EEySgdv6nVoWowmG0J0HLzoSQ/d5im7KFXmGxPyfaypaWR6KIDstgkHpoqUwfvMtwv7HZWKGWqNNPKq+GTDFaRavA1L8oqzQN9mVRC5gfUF0v2bECd0DnKYNLdii8mSH+oE1Y9tIn4HXD8MsoECbWf0f0jES9OB4O7qUJegGRqpB4JgBTkTYbsp7GzjZF20MueJsTvbbbKDurGnAfaCtUvHpoWkQLkOF87q66gaYTnyHO8iUpf5qU4XoXzlCJVcQAcfCG1Y/tAX9SLLfXNw6emy3zkmbaklNxelfx8HtkdCoWexzuV6ULFe/XbEUdXDPn8HC+GP7AmEoyx5Ip/+sNwz0zfXiYi+VGp9OaCvZusPpz7bRMQCN4wp3WaEG/PEPxdYTdxT1xUUlBnOlJbPNdJhR2s4yQ1ykLSNqIQoPI6csw6uno7b8z3C8lTsjQQz6xghrgv1hy1BjrgBWHYMWvVJYZw7Ep16rYw0+ypJkOH1micc81saQ0BlQMZX9bznTBYRfoNNp/pOsNrjs6ZFaIiAoMkMrrcROkbg3wnGVhu6phy3SWDbsBh2SX6ro0UqaZ5r0LjF3TWzR9yDgm3gaPxoje39fI8kHLIc1/5234CHIr3viqaiyNsjdsyEjoUWuVrQsUKR21jFpC++f3nk2IeLWso3Ir4qb2gybhxQzs0XO/fTTy3Hjj7TdnAPN0lON4MCPWQLkksG6YykRF4N9ZFNTJY6o6Jp61bPfuNrFLeAdJZDOcLIRMEcII/wRNeN5hwdRYkAnHfcnYm1RwYpGthJv3UgYg7IadcSNBSJJDue2DR6CXi1jtexWwy570JXFMG7yQYIFQySrxzCV8OtI8WjkIVVH9DUizhv5xOpUi8xaOnyQiVWpbKiFnm0rLhYf4YJvGJHV6jBhMMSxzWSv7DI0aZysComu2veyQnUgDoWQk36WBifpSattlnk/qqQsmDUcOtG/hnG5Yz1ylETY+mVWJtWt+q91UB2psQHKboODpGiHaY+woJs7+81yTf8mQrReW9y6azHNMEBP0aTX5rQV8SCIEPmJI7O8yAe6eLwG4NZMm8zvPin2lXvdoHyd9MZC6sRd1tcER+rFF/16+SRmvq+at8cHsl98AyfN+yzlp4U8zUxuyorczCKkr03jU8S2aql2SEGxo0XI=
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  
+                  nColor is int
+                  
+                  // Opens the color picker
+                  if SelectColor(nColor) then
+                  	
+                  	// Applies the selected color in HTML
+                  	SelectionApply( Color, RGBToHTML(nColor) )	
+                  end
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAABfQYwcm6Edkt5AuAs5FBFsFruBoLUCMv+FHTkpmJZ+2ENL6liNr8i3ViATOqTYl/iKPQGFRNSBM276C0o1APBgkvjhwU7JO7uru2/cwovjhtA5oQB/6MCuntAYWJK03xzftZr1kuqijpENZ5kM3EJFPzbjMsHPXQxQ6N6wNA==
+          controls :
+           -
+             name : BTN_COMMAND_STRIKETHROUGH
+             identifier : 0x23e9fc8e1034493b
+             internal_properties : CAAAAAgAAABM7r1PH+ymLLzmx6fi2JqJ5i7fB4nJw9nfXB08iZWaWwEQhrCgy484cBVtyiDj29Wm0DMEo1jyCBQIiS3iTxZyPjtIUSiCQQq3pXOi7Y4S6X/06nTGGTGdBCZ50V0iRxIwnXz4F3dd6VsBzpO6KSi/267wx/YHr3B84IgKGFLM5NSLYwyjhCLc9qQfo4momu4gezp6N45rk6kf/0ZMYnbldPxm3FzhkPuXteQHzmGdQ+r5yQrCFYuuBqgFKx+UxFh24kbDLBxS3vT9WmIq/7n9m6aUcXoDu8PR2sSSVEJFXdsEXtHO2ALO0rNtoryVzwJ/wci3BAV0bZTXbJE63CN9jOqu+jVg5JkG2Pg0uQHX+8tkMNzCJxSX3kRm9SsFU6EK6pjQ9udK+BuEusU4ZdKsyxvcUVhwwhDvN/USRDH7Bbe1C5S6ARStNP2JC/3VOuedoe6WUxD1RnEnP1bE4/ryPrTmjhUBOP1Us3KO4tBRX7UHTQt+PE15i/nRzRf8nghDMLyq2WSB1f6fr9BCoEiFS4OQbYOhNDJRsZXrb4Zeqixj0NhksdrTaawTt014YNYIL6OyGxwSsVT79k6/4Uy/807C1AKcJ4BZVSsrtXEugIfKxx8fpg/Hq3zSI+YzKLtvVJZ1Jn/hXdQsfS/AN7kAhTwOsUfdTMPrjgfSU1QI4F0WNJxY25Vqrg8rptgoz5ln1D94rtrLuTWrRFdGKl464NgW0FvsVMj9fNPW2/7RWGZMYSika/cxdyQxY5seZfCQAxfRGz3gWdIA9f0oLfS8AgOH8Ib3LYe/17lU1r/RuiG5JuJhCSeTfA1y2w6dODBsR4YLp2QUUWaNT1OvEuCrrZe+arIK6fI/DcM58/jU87vsVwdk+/QAWlfOkVFU+LOkr6eXe9J2kMc/jZsiUQsfcu90RhxzQfWi+bWs0H3rW5OLialByFBVWv3oAZ8s2rGBRulrfkZ9TlY1cABLVH/y5wwAEDq45nXObddHDJghVrGWe+eRlTuExdEMdAGY2mfqF3Z7H0OtzIZovKdLV5fVvTVrCQN4d3u4xxzj1iwnILaLBh/Oo0D9yfUi0nwZtDftbvuh40jwEXa9NKXhXb95XnPMDeAXMyOTOnpwufkuzeVr45wYWC9LeywdvYNsIrW6RjUu80Vbe9b6IJ8GiDkFnVUuIZumRQWX5TeVWFTn1pFdxNlp
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  SelectionApply( Strikethrough )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAABUH1glFqrFdrH0nCS4BXWZjDyxaFUwnzg+A0P6ViP9/UQ0ZJuYOvOrctHGahjz9nyD6Ud2fuOi3vlgYTXpntm3U/RHYJeF0fuipQCfifyhOIeROj/pnkoZ1fVXlnHbEmgpPWSH2y0PxUr3vHXDg01nT/CyepVa0VlPcvVd6l4+k2tV1Q==
+          controls : []
+        -
+          internal_properties : CAAAAAgAAABPEMGa/KrGoGfBDxZy7m76njPBxujUyLyRdGz9fLDOmaE+TAHD3Ez1diUN4OVLS1I67cClRPWe8/FM4sVACqnPhuUaaIKEmW0TcAX7JBTUxCkam+l+mCzlNgC25FrfU6a1Sn2DmIP19a2uPVFIq/B7Pd3dRZaxn+X/zQU04d/wWlfd
+          controls :
+           -
+             name : BTN_COMMAND_HEADER
+             identifier : 0x23e9fc8e1037493b
+             internal_properties : CAAAAAgAAAC2z0qKkfWr7qEuo8f/UaWyCzQ+86tLyvAHugMr9PY42JOjzY4y1we5zGLpEzaDzRI1hKrkF3gXbbZfdLgY7Acuk363kXX1z04e75ZsrjTNhoe3TbfD3blmv/YHqnB5xd4NdgmpyreUg4cdelwgI8pUy5dQ4agpUnppugshNKxOy8erCRcfAJ+IurXzg5orjBXfgr4XDomEHUoO/DVMeGi/iAHq95//TIQLFmsO1Ye/jGHCuNYaNsIHh2/ClMoW5TBbeX5D6Hjjn2JZfemV6KAhQ0T3II/wbQ3VUNRsfleGX+lPZgG8Q4rGGJ4yyhbFqSVEfaRYrKtfNkJ0yMpbz0IY5JOYDEmAO6/Gv1nc53Iv8EhpEtFWSosZ1rxFyra+jzqP13FXX8S3HWLGz5BBDVe/q3tEfvE/ymLr02Jtb34bQj2EKrY3v+IACiKBgYBGIMD5MgPgcliyrpCTehlaG30IpsIRcgoQXcjh6bf5JKTbhIdxZvM0gxfIOkBY83XA4F53fhDNXi7VGqGlfkvQiE9Ggd06W1aifnrNA0ksQj6zuRDfgRjW2U3VJ8rOa3KfRNnIW0Q2jrNgnMeGGrMGL+AXVQQ3wNvei9lgZtOmO9WvCYCSGgUHgDQoXcrSEagtcNfr8cX1ONuGbdvheKHD6u4TqeYPSOCpFjy0l3zfFaNDegIiN/jDRRuu1AW4Sd6PPnFQPnT1TqGFftI7oPUpHw/Rx6dEomkm8kZz2Keokxg81QVa3L0hkkAgZZidNFvJgNo7OST6Qz9NgjfBu8DAuDR5cgMYNnY7VsdKmVqWL6RrzexaZ58hIlRoHj1OzMI2yDeowwvfTZQMuycai4CG6d2STMTejR5jzq+XjWJni1VHSKzQfzCD49x7scB8NRPV2L+wLpX9yhrKBXpgTNJ45YnyaF6T7B+SEDmw9VOgwq1/ym4/7P8eK40KeIbFbo1TjzGhX4IF9Y71L3zjaIjT+TxrmZFMblJVj4p5SKoLG1pXXTujMux1jpWXmJSMVD77qYAOsqHrci4BAwRay/SoyT2y8UhPs40y/Sk+PzXBvou7lEgITtazWEhHnRmS5pSEBEIqwoxvjvu+yKI7Qg/AQ3QjeKNPLQk=
+             properties :
+              x : 1
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  MySelf.Pushed = True
+                  MENU_HEADINGS.OpenContextMenu(MySelf.X, MySelf.Y + MySelf.Height)
+                  
+                  MySelf.Pushed = False
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAADcl9CtrhK9vNE4COSAbbmp/FiJ7LVwC7xeB1WoiA0PtxpGTk2yPCW9DJdAyLLt8FZxEzEgwAVEQAO2uyqfjnv3BUUGJ35+nNVw+44BI1LL7uVveFHbnAST69NdwONpjO5HG2qBXaOxx9Cl1nfVzZux2b7MFI9U169dSPelMua2C+PNXQ==
+          controls : []
+        -
+          internal_properties : CAAAAAgAAADjtGV+AL7q8ZNPQ+KYnMpO+tllEn4iEkqBRkD19hJWAamw/HHdVvJHvle5ILd1T77iFywJAsOQJeVyunG+OCUjql7FTZ2hDO4yXaBgd7E38TTLzraRTZemTR0hqfUEPuu8V+wELzQ0ovhHJHIHDB8cgN446gEOArKWAtFg1cuM9vNx
+          controls :
+           -
+             name : BTN_COMMAND_ULIST
+             identifier : 0x23e9fc8e103a493b
+             internal_properties : CAAAAAgAAADGtiGcjdRd1T8ujetcBPECs+308wfiJd1vY5jxp0gqDBQCy2iX6bTkGyjuOJk1qD1od4doxl+PSCzsX/0EqNZCLANTLMomRREtDrbx/H1CFeosYPA6HSfAkET/dSpNcHOiecS3iAlMdMa3gNLxAMqsJ3VcmVxu4TFb7SIev7TjucVRovP3y7EL2cpmQlC5atgWVQk0LLeQMS/PjgTbyCcsyw7RhgRGe329iQcMciVU2c/tkvgUG1m5HXnBnkxNyMOr2C/gTllIORy0rxENSWc7/1UdJ7tfX7qGpTZIfrOZQ+kypXFCOfWu9fgqi65wqaWxNUnr3ioaKvNhbr7vOtrxxtGHWz4Je3IbyQZjhvt7HGNfr5iChKAuOJeZenMPP7xB2cySNx0OX0ZpdMqj4FXVpihB//zU1u0tDrkIIqyW5Ao44fcisyCIZ7X8k8cNjaUX+F/U9hjy6nM8m3+7JGXRVYC62kZgBIYnXmCLo4437LLi1ChpIdfFKrRGnA7cRfkpedLkF1j5jN8TGWNB5kQAfod/UojwpaRVzOD4PUeDRTMe4oNx+25UIbrei7ap0iNlFmsJHFHJ3ReVmTMUN+8toXZOKj6LvMyjWz7FPAkEoh9bUIow0D2ErGpsW5/a135vai6YuonOtodayTWhDxw7ogeuv85mBEhkh27x7TJl8ko/L6Lyddf4yAwzSPDsNdw5qOsmIj97VrRZEUnAFr17syE8n9CYsFVqrGsRsxFbmQN7BQvZHVjZmxiDMJYJ0as0aAwEYtLRVqFVUtF7h/kQ/6nNWFwdEhZnym4B2eQELnL/OXpbzqSFM6kSoQ5DH/pxySZkYQxIST82zyxIfS8SU9nkxXyVIgCEQE/5bwf5sKQwmLWX1Eyq6Cx2i3sIW+0lX/+MoKQwYdGFREkcoMrTmQdukc5RpxXkpRFTwISFaoJAzkHsRjAR5fsfj+5UT+2Sp2wI+svxvU+yHfqs/w0hkCCBn60PtYYXznZAMcoQgBKEX8uVv7ybj8zdiolH8SJJ5ybijPWyS0KMm0KJaV679JiVhTY9H19HXE67MJoWQ8b5NOS6slmqBpS7qxgf7mNnlckekXNN48lDT5Jf9RGg1vEnDvaM0rz4Ii2u1VO6QsEbovBKp0m/0SRTWWGsE07bOHS7hEAcWl/RqA3CZ5f8fyJ3sxeoBilmp/I1bwv6U92DfkdUItp7eJRE5iybLqAf+6NmCRKCPXHFcjs/iezbvvpf/EAMp7SFDQ++mazmS49BlHDJNbN6TTuCt36u/1GZV4rQFB1ghG4=
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  SelectionApply( List )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAAAtx0KuWVolAD7CzsupqIX6Rp15OhUg+msZszudHJYmXg8JUpIRpfADehZt/oC8B85ib5mfWE6J68rcpUpl8G/fE8nuZq3onIxIGh6xUV6Wyd3uTlEqOxX352OzzXl/er+4XvvKsfFrO6IcZu5bz1FULKtA++zICLYOtnQipg==
+          controls :
+           -
+             name : BTN_COMMAND_OLIST
+             identifier : 0x23e9fc8e103c493b
+             internal_properties : CAAAAAgAAABzR2KS+5iyJxQPyLGfEXLqaI8OmCeNdoyJp3obQqNTz6MLwU6oQRa2j/jyVP5gzlF4+ueg80MOWfiLOQO+bF0B+zyqvFKShyy3Qp6AVbrPmDgiNTplJoCsB+ZJGeaIJ928dgGmCYeDnOA9Ov1xz8GexRXiQAbvb2RENFv0bRvsfxAnjJ0g92UxHxCjVf+gKCV0gHoiXjqkfYU2vX2WlUcxJsndIlaAffrZbJ0/cWPmCTBwLasqfKpQg81e8gcHnR0GAehmG+6SC5UHQtIaEwrLeQsHakTW6hD+1MLr+QOCkAKV+X+4YJzof8HCJox8XnL2RrOTHRVP74wVP1bpLF2Bc/S3qP72aWPJuP1BaLOk1Q2kS0C70HjNlhWM/H/ejLUdlhhygjCy1KuAfsbdDB8bOv5mCN8i8AggxXlu5zELLDqh0jA81QKAYIoj9QyZF6Y/4N95QQB8Eheu9uDz3MLdV4WAQJQ/fAIsHpNOwFlmPvEfFMYLcnB/FfajvAYBLyraJ7Ueq0LvdZalr4cvt6p9Ta6UKULdYZgoDWONLXbl9uYpqzBLYrUiHmE9sAKP7upCZMiJdwN+t6j2ofu4ixBTH6ruRxur3S/neFLQeV94Sf9PSJ7VM4ngfhqcf4k3QJZ93rlo7Xh0XNA3TrhkAVGAcMHhm2xBBiYzjws0GKvKbUeKKEl5rj8Qkni+KrZsL+5lIqV+0E8H7odiR3R2fXBK3FpmD7zsbX8oAdv4YiQkSiuQkcOtoDka0A1watmYrEDI/aJ8O1KegUC1rrrxPQMis4rAZHEzCE/kN/cuZidMLBYoT4jt1igwr3w2AzJRfEVYMp7eytOZFcxkO6jkqfwXIskU/45fSBAextTqllv6zd7RciFYh7n9UotQ0n6t7MYJEU5P4tkkIAZQN5/pL2/VAyw56ttMz/hP88buS+biLb2uRQqypKSx6LhuGVC57vhAnOYfl02KEMsM561l9XuTHMsyxMJcCowGI8EGGsNIWKoeDbooUVOtuVRSG9mRtajazoXPyQZQ0IwYcJuiUCyVfNme+LAtFwHyZ8BR9SU8ef7JVnTVBCM7GLSrS0WwQ66qoPAFgMboWmgE0J1kYj2tQPKhBjG+CV0/19FUbGN29sfAn6tCjdPPaSeAR+4EBs6ZPZrssuKgVLg2qfIauwDvqsGzfueDLApEKpoJTSpIfGTR0lSZ82G/0Yr3cCiTJtHALm2p85BXf4FqNSkrZeTyAY0kwiJMXy2qgVx99u3i4NZxutn2oleRuw==
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  SelectionApply( OrderedList )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAAC1f0pWcYLtTH4irqv5+LWqrpURYv24+uvRa2OFFJ5Otq9JslKhpejLWjZd3tCst14KZ6FnELYJ+1JY1Xp1IHf3y8GGOuGkSKikriqlXeL6ncmiIiVu9xHjk8dvcYVjrnP0cp/+hT23B36goqJn09XoSJ9UT6AAQG72rnzaHg==
+          controls :
+           -
+             name : BTN_COMMAND_BLOCKQUOTE
+             identifier : 0x23e9fc8e103e493b
+             internal_properties : CAAAAAgAAACTB68QXMIB5qDO97d432inZbeCI0htzosnNZWWIvbx87tHp6TZABnoHX6AlQuiWC7pD7X1xCoWWegSrg3jo3nuyIBWuEARbsQOpjikV75PBKA/0gUPPkzNLGYDRsOjHkFprlnhDrc8EDTjechUDz3jB1ykw/kCLPJszTY27ngYtHwM01r2vawjSRmknFZKeNOkE8MIwHo2uK0dN6p3O8Wxm6JCDBO4JSV0rRheUjW/keFNOZ8qce701uY9R5VHeXUvZL/tiHbt2c3/kt11J+bipUodETLIQ9ggOlHcWtk3jGxkqK8chbaDToknKNI1QyJoL6eO/7N+IqD+nEtJMm+lut8eB3rsbU2PICWsAYdsrSi62w3GFUVGpVg7SG54vNEBe3JYQuDaVMXIzRgH3UotQqdU4arpgNwyVQxyXtxil4kJp0EQ4J56NeaVnqLeU1JJ35A7qwH6TXvm+NPWI4QrubLJnoVLLyx3BBzrkJsOWOh1QSb1MmNNOY9MP2nVzCEawQVPdpfI8qPDPE9iYDcvhAnM6CYb41T0OtBnSMnrMKAu5VrcxUrNPh8LmaBmFXdgRfMFQsJ+7LC5AEmtdiFl5t93eFtBPiDlr3QhB5TpdypllmDKKUxNDDmhuNml5MyroX9i+u6EqKOSAcnECJhE/D1I38ZTMSRm6rBSjXqy6M60v7gcWdBeOzOFKiwUZwFNFl0S3tu+YS8J9TGAD8y6mzQqNnFKTOQmMDypK/QmKe0qwJObJcINgywjAz7lXLe7MlAYsl4rVDelIv+YKtoEbja4wUmeD2XDqP1loT/QQHnqQREgG4GDwi3E+QTC5SVC2sKITiiWv2vgY3gquyauZXDRkeQIsbdSaq2+cB/0fkfyjmEflN7PcfYnURxhjDfTdmLOxF1eTLyP7lmIvTUZ4ND+RhQUQAmFbfaR2UxaBnfZZORUExFn8VB46thzVBPn5jH18zY08tgNDGIVi21arPjnEsTs3Y3Wi1IRpnaO1WgQZ2PpyNNDO1AFq5swcnTYcwbCkHsUqDMzhHXA5dRmE0HqUndJ4TKcBtxHqD1LHdKNZD9rhuNn+ZtuPJ9E5TET9khVjDvNJ/daXekpI+xVm+sskydr1xqADc7DVW3l3lTi1qmsKc6DHki7gJwT5lbZ4bqAQrB26dh/dsJ0iztBdjzGpSn9LGJNYuSaMpVaq/CjvaH8eqQbWBaBbWgvP3MbBA5/WqqqS4dR+HZEUFZIyrrMEQ5UUX6sfrfbBx93jo8=
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  SelectionApply( Quote )
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAAD6ofrHcEwfWnN2itrSVxNbqmKDZm96PV7YZVOCRssFXWyMFCu4qvOb6lHuKnDj9gSD6a/uZksKdhkIYZyeiFm369hzlMsj3rc2EfR7pXDVdIuVNjPlijZlWaGLcl1PRqS9kfCrpxkr4V5bFMkfEz1fr0xirnG6OUF7rnVDkLhktQ33dw==
+          controls : []
+        -
+          internal_properties : CAAAAAgAAAD3o5Qzh4Oj9A8Ynuv2tz1tTYHoHdYXuhtfLgdYvpO90+gSkq3SRsWjbtv6iPCjcrZXN6H8rPdkrmX6JY+eAJUve9oBGoFp8NwLUFEIao0GqW40e5T2u2UyNmjgH/pMsxU8AG0sIOLyJpPgiXyKWBY2ZDlXtHRCyvARx/mcyiBcoBv6cg==
+          controls :
+           -
+             name : BTN_COMMAND_IMAGE
+             identifier : 0x23e9fc8e1041493b
+             internal_properties : CAAAAAgAAACWCxCdp69gtti0xyiG+DnQmsW/Z5OgW94Pq5wzh8kJ3k6i2kGQ0H31NLt9CPoGMys5Ivp7Zud7HQMBhu6G0o4B0dUnD6ZyESW41KDbt8/dPXq+7idQHtjCdt4ReGRHnpGAZ8Ci/Bw83MZYeKTGecxn5c07/YBaqdN3h3Ff+t0SSTHB22EpY4QjRV8CYyKwZROnhk7CdraouuJsVLL+78DIOEqOeyTl5KBNpPzuWzzbylbVq1xMSGMAZfbp4wGZsyI1HGhgvW3jOesxImIuU97CUwObSdJnnQjGF7ZFUUmn3zh/LlB26npettl3IL9mBlkQb6cOFNwZAe/lt7pMwdxF/q7kUIaNMlUMXDel5FE2iF3dKEt52eh+KjwBn1dd2Bc8R2Sppq4z2LK8z1Sdsx86UfdbfS++itModL+YuxwJXVw24y72wVL5MXPtTD4EZoBF1AWjdDVQfMeKW7IfuSYM/qhJd14uo8XwmEyFqLj2J7F4SCXeqqdI4LgUyqgnz78m9VML/K95ffCgvlX2HDmJu8nvMW03zTo2tXMIyGhgr6mdFM1+qKsDBwLxNW/D3t71aWW+EU0/gLOXCZ8R2o3Pz6IuvkjmtGB7Y6+H7Cn3aCfYA5rRSRYt0OT7X8MpkukOlFB6NGccYlDP9/Osz+d8pvHMrDv7TXdNzwxvLuLrmFg2cQ6lu5YjAQ+EJqbhL2K3H/eXUK3Y2ir3TctGzEbiEaesDxumN7aApppXfVx52nwSEcfIz297DQFVUcCL7uuKmURvWuDpLLMX1TcCDdb71vBKPJj7nWnLvCdof2MZR6XM2wUca3tMH4pqNRr6BoHzRBVvPl1/t6nCClvMgCkhc3RWOp12Jkej67eNSW8WqZn5sXRSnIOcgoNuEtLg+UtVKhY3mpVCSxVfVmk9N8Ne+ir4vmqPoOY65JnNyjxXNjsKWHbNhCPly75kHXPVnmO3HqCeT3g+y+B6nZxSuBs8YRmiZZRtrWYV7V440kckgG8lAqHcLO3BpOP10k8M+HvX5QshH74Qls8RGOmAsiV+fK0TwIW0mPRuwZjsCh5q7gTPRsNMAkPpfuvKXCoTyGVlWpbdHULkr4jnLEIHCj/AhMuzVg8AKF5uzz9W/1xrg8tNVQnH3K7vHy2uK2JGAGClcY0=
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1-
+                  
+                  MySelf.Pushed = True
+                  MENU_IMAGE.OpenContextMenu(MouseXPos(mpScreen) + BTN_COMMAND_IMAGE.X, LAYOUT_TOOLBAR.Y + BTN_COMMAND_IMAGE.Y + BTN_COMMAND_IMAGE.Height)
+                  
+                  MySelf.Pushed = False
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+        -
+          internal_properties : CAAAAAgAAABHsPa8qbWSgnTPQVDNRl3yB0Fq9/BGSAtiloDpvA3NS1cO2wHpGLCgfolbVOAscZXD0T2a7n0RpCoorfhYE++p/rCDEN2uzdZxBosyCypXP8bTSdEK0VyfwmHKmM9v7X8VL/oioefgKxFQKWXdI1Ik/bAzS1iDgMzrmPBTtNM=
+          controls :
+           -
+             name : BTN_COMMAND_LINK
+             identifier : 0x23e9fc8e1043493b
+             internal_properties : CAAAAAgAAADTVJjAyFtdylPOOk5srgUNJ+eddSSOjgl0EHWcUlYAaps/3dWugBNCyRvOCauNFuSIdSJNpjQ6T26vuCcjK0+/vgzvOhaBWnqqxtqUChHTyO8U2oIHk4BXOG/UMEk0HvlxwqCjZKk15ZcColuytAQQfsIciZnPSFbKvHWXTSQEjz+lDOvcnDwAwMuiB2VfbqOtiKHaItD/RvOAmhbxQ7ylOFll7qyifoKcPxXV5RLeL8zJ082ABsHUCV2+f8S5o5meln/AReSCGfoZwa2UjIGLY3lE5iEMH7i8T5NdhvAnJWnkwOPWBEOrkrkaCiD0NouNpdcsX5xnxELZPCPs5DereWYozqM3WNh55RHbmFPwLtUCj+oE0Rl/hdz/Phrg3EJe4FTK7SR7Yl/zoUaXRMhC6slNAoNOZWQLgEV2BSZofBNi3HS2HjY9aNVwjLLmX5DMuudHmZnThbavVl/FXZSdHTjXqo6xiDJO3tC/keeF/T6WamkQWvNl8HfIxLdz9idnei0EowWghX5nMf2Av7ZZPxXjC/wRpULGaou2mSlUxACTg7vrasPneeIP2PeeEY4h3+XWxZ8WHGg50Dfg0bGNP+XeUd7wc1reSxDC8YP4UFgxy/K1Qutshw9YImJjRzhFoNTqJ5ES1qRReGswgta0DpZdVerVftXiPoY9N6EKfKRVtc1O70h6yCNkBjBfKUoT0vn1tYWS8UYprc1FFxBBJAUJy1Y80qQm9n0oiFD4EANJSDIJIxAT/9/yfH1tDlQK7z+wX+8ZbrKc37N3mCBxqjy7c9d7x/JNSEWiJ1mna+7UGssrR6kCjTpdTinxP/lwXFgamOqWe3jElscS01vvrsJ/y6i49UcIKg+6pTpVwhIDwyENmsOTxFqCWskw/cUcx8sjQNcRmyB7/16oOelv3CHEoFe6YVKpKmkLlLd/a0LvrPsDmW8ZDjpTIjMMYmL7A+P0QagUFNtvWhC+YLGVxLKBQr+eaTRa/ta0zhQ9DUnQl2xQAibxU23LG32O9LpDvYoFKmBeURc+fPNG5z+BAFjUpJyaimlJsmqK/v0eAlvJUkqa4CpYasHF4okGVT+Wbj1bZqeZXWAg1L0RIWIjAiJnKmaDxWY62aAdfOmjhKURRLwTgiJ1XNZXPcHtsMZX
+             properties :
+              width : 42
+              height : 42
+             type : 4
+             code_elements :
+              type_code : 4
+              p_codes :
+               -
+                 code : |1+
+                  
+                  sUrl is string
+                  
+                  if Input( "URL to insert:", sUrl ) = 1 then
+                  	SelectionApply( link, sUrl )	
+                  end
+                 type : 18
+               -
+                 type : 161
+                 enabled : false
+       type : 126
+       controls : []
+       code_elements :
+        type_code : 151
+        p_codes : []
+     -
+       name : STC_DIVIDE
+       identifier : 0x23e9fc8e1023493b
+       internal_properties : CAAAAAgAAADmC3yGgWN6xLXyCd9d7zOcftlLY5FYR+rdTCGdoJ/L4C9TDkBNWOHAiKIzJAXF01muA4LnA3HOjiXAy0/mZSOZpVEi1g0BvqZpytl0ojw7Q+KXsB7b7FStUDBMabl5cNW+QYVDVBo+9W49hgD1HPuOzrtU76HI5QCRM4XQQVvQAkipvkodAG3+o4FU8pN3eeHm/5+M4sM4asBtvXPM4V+O7h1vZdlvE6PKnn4xWxeJjSbqYQIfBGk+6Tl6RJ7S7ewP7adKtoUhNxkK0KFFgCNgUK0jRkUQBnj53+PwSG+kOX2Tge9CzH/q+/zKvicv1Etr3w3fZycChAbnW5KsWZG4goTVScG+d6qs3ohlCiH5/EOglctXRecajSm2+Xuy655YSrwREQzMAGHqYjZ6nJx1bj3FHIfhFHb13+1anoQx9dwDYXtPLgTUiYRbE3GqFjo1xGab42NvDUjkY0G/LfgWYi/TWdXAblC9Vy3mSpq7rRg/XVh0E8joEpOdvmQ7q8MYIlicNEPWvbeHbx1xuzvNKs0s7oS8Kav+jMpE3uCrf5c+jIN5NFdNfk9Ht6+BDMMdtIjcZJAcbRwE
+       properties :
+        width : 840
+        height : 56
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // Simple caption
+           type : 14
+     -
+       name : BTN_COMMAND_VIEW
+       identifier : 0x23e9fc8e1044493b
+       internal_properties : CAAAAAgAAAARSb4xQThClhnR/OTV+q6M1i0fK+wLU3r5R3RS3LQSCH0iZC1TIqN9nvc/xA74kdh4phMuAV2lwV3byZMYHFOu/26/A7HIUfjYejE+0P4q1QKFtBNmW/X4Axd47ofG9H+Sd0xUhaBZapPhbaXgEnzgpxq3fXZW+DGUjj27n6TuaA72OfMhxKjPoQG2bMZ5kdP7+5X5xiyIgkffTC2D/h69D/4k3D2T7gnw5a5mk8T6uByWnvVxEfmaWDhIwGGY2UHCim8sfgKJZNr+CsGgbjcCrbmhKoUa9VzfzUqkFh9DOKVD9IsA1tbGM0PfrQBl3qc8v4R59s8MfCb6XDt+pJnGMHZCt0UN1FqOG+v7kUSQNnzZteXrljNXytikuRSsbU9HcVl4sZ6mAR4VFtJ5xONyM9/RTruf/q749AKfPBNdLV/m6yCA3IfezRWNZVtUo9bIa0DbID354XkypqU+H839zqejeb4q4h5etKi0i5XqJU5/LE6f/Gr4ztHByX19jwKXRMXDvBsyE3s5XBzAJ73/j1tBUxSadqsS814uh7ETFH2fly84/ti23+Lyd0Ys1qq8xN1xvPWQTMRv2cSZsx7WOeq9UeGvtIEdqYVw7m03v7kGvUBcsDhyPzYuWPfkEkaJIO21HerFlMy4Z2zra4j2AGpB/TMnlG+iDsXblWbveutwjpdelN7pr+OYPwkTmto6SDtoed387QrO8nItZP1XNY86rSCiNmYVXEDxzSVOfrKMg60l6ee/ammjDfVxqzuC+UPRF5x46xMj0kyQ11k7maf+ZhLR4ZKrkXI/biyeqk8RiKvxJgLS0RFvJoVOvIwdtZrV5pWfoNZ4q+pOK3IIN/oRbQyk5CByeAXRpj7mCcw9o7PRT+euowGdD7CkX0kMEtW9KIgoI+Mo9u6F5SXN8HWK8k0vXVGEsitZS7gReASp10yabpM6LwHfNeNSkhzzu7CPS5stfWCRY91Bnsgx5LMoxpumYwLp8X3HV8oHEjLAeSiDMvuRE5GZN1aiVN1sOjmqfchmZqOvh46VzCkR50YAbzC0oJ26dqNwtNt62a7b5urLpIJUY6ta1IdV/vBzOAgg3LkfeY1fvX2rcJhEEsU64pIAkejz75w+gEM6VbBzGgpn+2HFc5181wCSq48oAozxrgMdSm59c6RtsxulTCC3k2GuW4LKfj2rqUr+iLxjiXbPX2omQUKhg8P0VsPdase+7OipHKK5KqyTBTbeyUOq/J2SwUsx
+       properties :
+        x : 642
+        y : 7
+        width : 42
+        height : 42
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            if __MyInternalWin.LivePreview = False then
+            	__MyInternalWin.LivePreview	= True
+            	MySelf.Caption				= ""
+            else
+            	__MyInternalWin.LivePreview	= False
+            	MySelf.Caption				= "/"	
+            end
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : LAYOUT_MARKDOWN
+       identifier : 0x23e9fc8e1045493b
+       internal_properties : CAAAAAgAAACabdtcHb+7w2T9J9Z9eo9kou8Cy3beIaGTb68D7X8YVl8wYmfnTyjAIG9FE8/BJ0QAOD3Dj5kU5CunZ2oWgB0KbrNkV2vwTXVwglipTPnPd9gscSDjKIe/DzWU/rQbU9jEW9w6ZWIi/xphrsyU7AFd6RSdteJ0boIhPEXGA4IBGdejeDRzT5Nk+4GzWc5N2/TxTbP3sqFhblecKbXDQvuKxCkysmfogQilD9o568sx/rRF1/n+0Yp+3CGDGOtPO/Sc8p9zYtUwVnDJvWwzutLtS2lXelZA8WpMPXrbJmYp1LTepfE44mV5ggsiO8FdWPQvJ7l452ZLo8yGbwV7Y9rUPclhsxavuLQYO0jtJrtJ8Z4PA8KZCc8bKM5kHlwjTQ1TBci+HiXUyFPbSss7isU1RrHVFUOCb3WDXBX8zyxo/pzfq6EjfRn21rnC4CiGCls0RF9i3zyDkRAGmB7fFTaxByQoAjk1N4TxNsgBEF79tYoyhW5LxYWAevLkT7r7hfuS+FH5tyUZA8FAx3Qcrcqiu6AF7jvBaw/59COvrqcQUqLAnYwT3Myggv6WCtV0tKkBBnH0SoDuCjDZ/ehOAbCSmRCv4A4GAWiuZgtVvAljlt4SWu6jcKrCq64tKPhuqkqvM4Ck0wzep3Iz+i/DMcLoiu6nsBLNpLBOGjnkKpuOqwB5+7zWxu+xqD26fliYOWQKuOJh6ADq48xqvN6H//ePng==
+       properties :
+        y : 62
+        width : 840
+        height : 419
+       cells :
+        -
+          internal_properties : CAAAAAgAAAB6wVYx0INITLbzvnvAGjbCiv0qjnyiLrcKq0QwNFCxphyTbOe5M+17sEOc+FcxqVHBWCMzlEoXNFFytjnkTo7usnW3oq+VDpDBxcfocu5YhNF/mUYFQaagfz5Q5VTFH7FcdQKg+HV2bPiRuzBjw/uX7KdzUpR4aV84mwvmetb4Hu1s8/Q=
+          controls :
+           -
+             name : EDT_MARKDOWN
+             identifier : 0x23e9fc8e1047493b
+             internal_properties : CAAAAAgAAADHGK/KtokGrMLq6LDLdoBhFP3LvWZK+FrLHy9EKznLtivvvEPCOEb0wskew8uLB0WdqqHFw0GMJdrRA63GTnQKXALXQauqV1OepCnvJCM3+u4GjpudZjGNqrhIlDJkZxUPzc4SSeUkdARCvQlGklBEp9utY4OwGPfRMbp9gYAti+CwtQtZX8b2zxgp7KUN9MTgiVs4fR6DmY7xJx5CJdI/wBWJHirFb0fpOgAJ265lDkU6i1682XMetAznEY1GJLKXx8KyuX/xeEsaFn7cV1MYAYv367PFUVcrCVA8AJbSBlUr92TjsRzBFoUoxZghlQa7DhT0R20m3A4Rp2PZ8X1+xgza5r1yFGlhiYJn1mIW2L7Uh7HqLfGZjEbaUp43XG7/+rxLygrgi0sy5noDztkjppQD6aeKw4A6qW6q2N+eFkjTW+XOzPVWJr+d/gfDji4yjmQ0P8LiRx+UU0LTznSJaPrFBVeF4jjLyMJUkHLbijwggFUK+e6tFWbRwg1hz3IIv/wJNJPhMW8VMwIxM8uJUV8Wj2npSB+9AUUNXidMnM3U2Mo5uTwgn9gfIjorFF2mT/muY3JHNFBRSpb5QNCdCjzEzStI+D8KY0LeQm54IeL7u699ZrGDAC/qVZEGGTqdGxwYdPjsxB3WUOZPYeXPvxvlXY8O8/0lRo8JpVrnmtAIDFvCPRfRLndMd6XisgrlKyZNOyX+aM0/4i+GWw2aUt1EaMdOixHy+v4EgukRQ6y6fZZK78tAUilmc/xUXZMQHgBMh1MFYY56szmGRd58j84S5K/Q4fJ3YTfql32bB6w43e1mTdtL2lvFtB4Oq+dHTE3OKcYZ3g4wcdK82cIXn5Lm+jgA3aamapQ0psEZcJOa6wJkc7zSMSTfqIq4lMnP0S8UcDc/Hj8iaQithLgZq4D3z56U/nXTVrnpyR+dey+hRuyDXICJNhIJfDMeaQ9kii42Vy/dnu90D0sJ3jwaxQwB/HyrYBbFDkq00UhRQ9TZL1jer+XxRggYxz4Yht2tdYHUCgvL2xJivuI4PnVk1rdWAQUWixBgV1LUB5p7UDWRSe00T4J5Qa8uM3AwDZ7pw1gt6bPOJlcs6NnJO8d2n1ACBB1gZU90i+OavoZkkfptHnUDinOfnt24k0b9M6WrBnpUQ3IzuwrDDAQZG1AdhtcyGB+ZRD1wzobxtfgH1wHfu2kocqujP2RCLJQjnk/mUt772kzlSrwZ7q3Fl50/x3GytQ==
+             properties :
+              y : 1
+              width : 415
+              height : 417
+             type : 2
+             code_elements :
+              type_code : 3
+              p_codes :
+               -
+                 code : |1-
+                  
+                  // Default: No associated file
+                  EDT_MARKDOWN.Extra.CurrentFile = ""
+                 type : 14
+               -
+                 type : 276
+                 enabled : false
+               -
+                 type : 277
+                 enabled : false
+               -
+                 type : 278
+                 enabled : false
+               -
+                 code : |1-
+                  
+                  EDT_MARKDOWN.Modified = True
+                  DisplayMarkdown()
+                 type : 17
+               -
+                 code : |1-
+                  
+                  // Asynchronously removes the space at the end of the selection
+                  TimerSys(__RemoveSpaceSelection, 20 ms)
+                  
+                  	INTERNAL PROCEDURE __RemoveSpaceSelection() 
+                  		
+                  		EndTimerSys
+                  		
+                  		// On double click, if there is a selection, removes spaces at the end
+                  		if EDT_MARKDOWN.SelectedText =] " " then
+                  			EDT_MARKDOWN.CursorEnd --		
+                  		end
+                  		
+                  		// Special case for color
+                  		if EDT_MARKDOWN[[ EDT_MARKDOWN.Cursor - 1 ]] = " " then
+                  			if RegexMatch("<span " + EDT_MARKDOWN.SelectedText, "<span style=""color:[^""]+"">.*<\/span>") then
+                  				nEnd is int = EDT_MARKDOWN.CursorEnd	
+                  				EDT_MARKDOWN.Cursor -= 6
+                  				EDT_MARKDOWN.CursorEnd = nEnd
+                  			end
+                  		end
+                  		
+                  	end
+                 type : 66051
+               -
+                 code : |1-
+                  
+                  // Prevent WINDEV from handling SHIFT+TAB
+                  if KeyPressed(VK_TAB) _and_  KeyPressed(kpShift)  then
+                  	_EVE.Return = 0	
+                  	return False
+                  end
+                 type : 65792
+               -
+                 code : |1-
+                  
+                 type : 65793
+               -
+                 code : |1-
+                  
+                  // TAB action
+                  if KeyPressed(VK_TAB) then
+                  	if __OnTab() = False then
+                  		_EVE.Return = 0	
+                  		return False
+                  	end
+                  end
+                  
+                  // Checks for characters to be protected
+                  if __PressKey( [[ "\", "\\" ], [ "#", "\#" ], [ "_", "\_" ], [ "-", "\-" ], [ "`", "\`" ], [ "!", "\!" ], [ "(", "\(" ], [ ")", "\)" ], [ "{", "\{" ], [ "}", "\}" ], [ "[", "\[" ], [ "]", "\]" ] ] ) then
+                  	_EVE.Return = 0	
+                  	DisplayMarkdown()
+                  	return False
+                  end
+                  
+                  // Manage [Enter] key
+                  if KeyPressed(VK_RETURN) then
+                  	if __OnEnterKey() = False then
+                  		_EVE.Return = 0	
+                  		DisplayMarkdown()
+                  		return False
+                  	end
+                  end
+                 type : 65794
+               -
+                 type : 65796
+               -
+                 type : 65797
+               -
+                 type : 65798
+        -
+          internal_properties : CAAAAAgAAADTXadxh2Gxjd8hh9F4H30stoWYiBy5jzqcOTKUqlF2mx/C4hqW2uO6ZEgIMRn6bpmbn92R9vDAXhcSNuDFhDNmsH51Yvjqh5Kn3H6Ww3aay7HcvPO1c/TZVFrtGW+Tl2QG7hW9trnU+TVNjuwIPx+GnHDKo7o5ShDBw8KbiGF4ELb9rvt9L6g=
+          controls :
+           -
+             name : SC_MARKDOWN
+             identifier : 0x23e9fc8e1049493b
+             internal_properties : CAAAAAgAAABhMhUOdU2oKRbIIi1zvfwKgwqdjZDyqCdN7NzYKkns1okogWUbbcrCkjNi83ZBTIcAIEPMTcYxif4dfpbawzmP5CE+qLg+33iIHBr0rjl3jY4E1DsBM1/VZ4U5bsYsTueAi3yPoIYJFfZJpUSBzN+avTIk33Ii1lu1m86FUX2eRsT1SCLbJRe7w5ZYIn2sn+Qb9hw1FRgCe/khOObjETo0A6wCoNO1JqqGjlRgPCyBKARukoMLPbjSsetBzIFx3MIK1lM9b5UpSdrzOmRSHqeMoGMqkmj8N4iM4tLfpV5DRxSw5+EA2PDWpt1y4MWdizUYBw6/2IOvmUFLDc1qoQfReMKzvREzsWZw7+zxJ4ylBvUhpG/wHl96H2fCitZFGXO0P9o75lY5c1nYLfu4nft0YGaVC9mhIcCzvjxUGYTYUXfq4BVNTfEb10Z142ECYI2k6Loc/2ZZn6iEjV5KEYtF3ukW58uBR6a8DJLmWqRqksRNgUETmGPmu/cUPnTTTMNpPDMln4BzkMIvLu1f5iOyDBADnWEmPPMJH37bvHuMPbV7sWYyS7Bm6rcGUtIbUAhivuYIdDi7sSCcpmALD7H3lcJu7/lmYqVW+mmbL0qcHlhUFw1aGiDszYjd55toPjQm3bG273iKgnFABPRuLzyaEG8rRXd9nv1azt+D5G18rPI0+Po+
+             properties :
+              x : -2
+              y : 1
+              width : 421
+              height : 417
+             controls :
+              -
+                name : STC_MARKDOWN
+                identifier : 0x23e9fc8e104a493b
+                internal_properties : CAAAAAgAAAAZ1ymdN9vCo5FgB+FW9ZtgOT+G5FTIG0SrlNpLhbcy86cOUUrrmS/ePVPI0i2q7Czqtorg52NNVjyjeaZPIK7SJ5zt1A1I/8W4GNP6BZMW9XIbbT2pP3QR0Dxxf6JmOskI89IXQEgJy5gPlQKHJYsvxnLWV1UOb8mgz0TSTf2VoHei3sgCb8uADIiTtzuVXheAAVzLWpQwSAVvm0kJJz9XuLhNxXyUmijcjoY2fh2czgfNsMtghdp/MXPRoH/GGrTYHgx/gtMS7Q5pIxYTZCuWbq0tuETLq1p3EDQUCDDVK2uiwv4pUUgh77JyGTv+KOSQ5aRcyT5TxJUSPghts5sZl4hrOcUhnU9c0GLcJ+cjP8MmeorHCRUj/vTfxXJdtcO0zBIMMgZyGQF8ZQ0RbbO2qEzQSJG99S5/YZHnnfeK+pvDzSO1LprbL/ULZbB4N7WmRogI+ysaKpysQzgm9FdyU/f8X84iYGbTUIpXjD7T8yojxcrhNomjlBKAwFAg/gi0xYyGM/UNHr7VoR9irmkM9AA=
+                properties :
+                 width : 421
+                 height : 424
+                type : 3
+                code_elements :
+                 type_code : 2
+                 p_codes : []
+             type : 40
+             code_elements :
+              type_code : 34
+              p_codes : []
+       type : 126
+       controls : []
+       code_elements :
+        type_code : 151
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            
+            __ChangeSize()
+           type : 65541
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1-
+         procedure MyWindow( gsSourceFile is string = "" )
+         
+         private
+         
+         extern "KEYCONST.WL"
+         constant TAB_SPACES = "    "
+         
+         MarkdownStyle is énumération
+         	bold
+         	Italic
+         	Bold_Italic
+         	Strikethrough
+         	Color
+         	//
+         	link
+         	image
+         	//
+         	Heading_1
+         	Heading_2
+         	Heading_3
+         	Heading_4
+         	Heading_5
+         	Heading_6
+         	Heading_None
+         	//
+         	List
+         	List2
+         	OrderedList
+         	//
+         	Tabulation
+         	TabShift
+         	Quote
+         	Code
+         end
+         
+         __AssociatedTab	is Control
+         __MyInternalWin	is Control <- MyInternalWindow
+         
+         ExplorerAccept( True, EDT_MARKDOWN, procedure( nNbFiles is int, sListOfFiles is string ) { 
+         
+         	// Only the first file is taken into account
+         	sFile is string = ExtractString(sListOfFiles, 1, CR)
+         	
+         	// Loads the file
+         	Load( sFile )
+         
+         } )
+         
+         GR_EXPORT.Visible = True
+         _LightMode is boolean = False
+         __ChangeSize()
+      -
+        code : |1-
+         
+         
+         
+         // Loads the provided file
+         if gsSourceFile <> "" then
+         	Load( gsSourceFile )
+         end	
+         
+         SetFocus(EDT_MARKDOWN)
+        type : 14
+      -
+        code : |1-
+         
+        type : 234
+      -
+        code : |1-
+         
+         if CheckModifiedToSave() = False then
+         	return
+         end
+         
+         EDT_MARKDOWN.Extra.CurrentFile = ""
+         
+         // Assigns
+         sMarkdown is string = MySelf.Value
+         Assigns( sMarkdown )
+        type : 43
+      -
+        code : |1-
+         
+         // Returns the content of the edit control
+         return EDT_MARKDOWN
+        type : 42
+      -
+        code : |1-
+         
+        type : 2
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x236cce7a025ed832
+  internal_properties : CAAAAAgAAADczozAuySBkMAifIkConN/5qn0lAqCOgMYUtjYGnfky++lwvX/eyAh5Zg7K+Rm3PqyjbPR45vk6/4Bb61GQxq+DhwZzD8qd+21cvC5chiHx9fjwLx9Eg4oObGd7em2sGtLo2tc0wtErOJ33P8JHSxGu4UvAlDgSis2w3aycW/29zX5d8a2znInqS0CvGNsn8X/KczosssO9faBE2/ldyzXqu3w4gn0kIQMVOawD+KNesjlv4ly2ZLsPiCEs23QheH1gkNI545Sfn9p5i5tGNDBN5eqDCzM9TQ=
+  options : []
+ popup_menus :
+  -
+    name : MENU_HEADINGS
+    identifier : 0x23e9fc8e104b493b
+    internal_properties : CAAAAAgAAABBYVs+FYV+T26Dqk9scVjAH4LgIbaCuTFlhOdvtIPl/dmIrsAlY1eFl5eOiE/OCzS+Irr+9o/aSUJ2/EjNPL4XEx9+o6LUjjaWF/01+DbzPYdnaI8TcUZuPvRIEaZWtZQ339FOZPU3OLQdt+pmuNIKVgEmQbuKpQcL/iLS527MogXpoJAJ+iKvpslOQOxuTtPdB3GLThd49m8O1eU4ILhnLmFc2iQaYbYwqNtlCEx66Ejj73HwP025lnP84e0JzgCxjou5uS2CW16n9sQ1NHyIcFR0NveDlHXi+KprIcqo9LGAi5KYkbS8aYlX8GTT78BeyPN1ccEVLyrO2NHS28b8gUsaSpqD8C+FkAlYndsNy3EoAOt0bqSeUJUPQA5uB4VgnphOT1a8FVaPkMxMUyrPAdhzlKLiC5f7Vl+HVySMT4bbzwk4TIBu7mT9AiKVsf9Ao1kQ5b06
+    options :
+     -
+       name : OPT_HEADING_1
+       identifier : 0x23e9fc8e104c493b
+       internal_properties : CAAAAAgAAACcnWwgO6vASGqK3R2brpf6+YFBtMJDfMVQXc5ZoRqiufNOftDQIW6S0ivJ9yxYjIAvN7AyCbmxmLmjokBIrWrMBI9aig6sa0EvtnSUiPRCnFZpEOEGlc1/em1jp9ry9MMCfXpdH20Jp3SWUk20Dsyu4xnEx3eWM9ehF00F8S81jp0FWpA17FVGUNoNA8AYZNpAp/9A0NAfdXZ/JckuoQo8z8s/fcssGQa6STFKKTxOQ7QIqq/uParr2/OzIoI5wgvQKO2xeTHFqHJ6ewQWfu4DqMRK5Hws6hL+q68rQpCQJr26HlYKKKt3jxSf0rl+uhZ+wzRrU0iwjLcEVrc8qeFSZzD+bBM42l1nIWeC1FajiHvLaWlNEY19ZSEkkEtWZ8ZWnij6lZ7fpeLRQ2pOwIkHIITB2SoE0/UaP2OG8+0K8FWN4zutyqVMiUNKl4ULLWEk9JFm
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_1 )
+           type : 32
+     -
+       name : OPT_HEADING_2
+       identifier : 0x23e9fc8e104d493b
+       internal_properties : CAAAAAgAAAAvLJ/e+tVZkLW0lh04lhhUmQlGJ4KC9VJtwD0E3/cN7fBvx4kjg2Poxuh/uoj7EV21W77e8j7snXWUo7WcRA/KpQ1R0CkDu/pzaYbnUeUvcNs3BnPw7RHroXRc+P+ixV9NviNGAxQz4/cDTsRtgN6z4Q5v/Gyj8wlfgmPcHEth7YsDRNrBembL54kGYV6lyQvLdFVYD8mxBWzorC59d2ZDi9mJbn7A75gEz4dcYgv1id9FDSOEGFUDbUI+AC8NuTLST2QMyklxzZiwIFOdYNxRHpqYRjBwdl460EVdhFYJVCWEoXvWbCGF6B279Xj3t4NYYxDkmnreh9KbExa6+uKV8ElwKhGqYuX1QAu1mmWOpUvRU+7XmvV3P7n2dtS2iaC/Ie8T06cVnUqGZy5OuO2LqnYrPXNjOJDBbirrNCR3A/behbRc+ueB8K+ulmQrGys1hSLV
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_2 )
+           type : 32
+     -
+       name : OPT_HEADING_3
+       identifier : 0x23e9fc8e104e493b
+       internal_properties : CAAAAAgAAACDAu4AxFT4SZGhH9ICNSOo1kbYiNdOdsGsCz+UEO+C3AMIv3IwjADA2c+lDuhAYNtoD610J4/kks2p4adNIWFSETTGmIObQNKE+CupXsyBvcFQMhsae8SUDWPtiZHlDsc4BgvyEUhHc6gSwrv8RlFrJfP0mS6vTg14AGhcAkztqNnSpLqzagxwGnIfkTckOcRXU7n+CbBsMsrZi2v5oA6GK7HMOKwjINHzUJM9a3aie4688LKt3WR4btwO40iEMr+asHEXqNRrOKtG6TtjTZ95Q3eiGX+tHNqVHJlY4RVvcDv8NM2FTT/Nxa+x1XfJY+kInkoHugIBfpZg9nYeq8fIM0E+xnH+kdNoNQ1ZUUUzs7Eaxbgb2hYY0MaJCthmanVunf80z1C/L6OL36+NgINqrOgYIt7ULD9Wzg46hT/UzCeLtbp8r52vKXEs5X7jj2u2cg==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_3 )
+           type : 32
+     -
+       name : OPT_HEADING_4
+       identifier : 0x23e9fc8e104f493b
+       internal_properties : CAAAAAgAAADrasYoPH0l4ODCCiErfn1aea1H59KLj2wTqCYm7mUArl0+QQOIe3xl4ujMSW5lxuuaiaXdjAyj3zLzr7te9IHDSBNx/ll1OrNy5wB5Ox1fZmb4gtoU9bpqA2AzCj4KCZ5nR5b1vuVk+jGmVcYt2EthX/3W6ddhj1O4oPxCbG/EL7HGWP6MQ8lnQWTmb0djhwYRC/dcoQiAGqxtrbnP9s7uG6MABK4Nn5GzaFt2Eq99IGl9e5fIuidR6Tn9NPvR8didLfQUrQ/w9O8UIcMVu6lHhcUSOV2PykwbbmOWJ98dwi1edpvb9/VngP78uuBwGgo/acEgl3V+4TXB1ZfdzKzLpFJ4kx5BH5tczqNqC2APmT3ez5kkMXk5M50Ii10RxsdA70WMeaYJgT8HlTvvXjeOTBwAukpYyENA/jzUvecqjmH/eHTMHw0bewFChxZ7d1OeWg==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_4 )
+           type : 32
+     -
+       name : OPT_HEADING_5
+       identifier : 0x23e9fc8e1050493b
+       internal_properties : CAAAAAgAAAB3vbunCfGzzeR2ZsRE6H67GTo0kAS8tAVHIpPFfH3NeSzeF6JzKY0N3gxEEDDQrAWa543n/CGt/Z8yVnNXann1kRcnPG4tzl1dQj3Cx68qoW0lfVa7AkriGHgFQE8pBoSHfKbZVyC5Khms2bNxdaxo9stnQIl4OV/uyXqJHS2zM+k1SHIH27+bRPJcMhZEWzf5DVN6cSSNQB1krXaV//UMuldffx5GU4dOs7+swM6mB+gAAvbySpG0g/1QOgfZ686V/RfAbcbsoqHfi8WrZKpLVKYHnPOKWNwrLIUOXeCKl20AIPs/S1CP/qewnGsC3HTwgYEjUr4YfdtBeBP956ci+DYYHPtIH3gFMQLZ/Wms9BqQ5R04fI2Yi05YedBE4cVJwVjF31r6ZBqk0Nzqlx8VbMzKzwwX6DCcJZDeA7jXtYjSxtkgVhDo2qFMdlYJP9NfBuJmgAs=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_5 )
+           type : 32
+     -
+       name : OPT_HEADING_6
+       identifier : 0x23e9fc8e1051493b
+       internal_properties : CAAAAAgAAABBt7WVE2I4WmHz4UHTkYkm8uPn5/nrdwRSHTyzFoPvH/o83cwJ54PLHMKKDtpmZnMITcuBShd7Yz0QJKmxWEurX911NtSr1rWqPyz3mmh9nHbmVPVsQz97cbGggT62WcfwhdmQMIGWd/ZJ9JjoGdy0miePoIn0LRdqRT45xeEb763xAIp/V7NLQO4gogYIoxNdmUsaUfDxAJnA4aZt++UIFjuPbz6SXx+Cd4MiHmSsCc4OGDB4uGd6qWvukH03yWiL+x3SE2yyaGctmTPZSqD9cpR1JnkI5voxIns8Wxaw8UNenrW1mW4ddO22Uqf4oHhyA4EzUqgM8Un/Bqm1cQ+CpmTMMC8+91Av4+QbGW9qNiyyD6vmLhs2ZdAq585+F0db09Kz1Zw4IvT2Qqqw2XW3Li48RdIJJm7ev7rU37rjAUYgkr1U9LB4VCvG/NKPs0fR8NR0dh0=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_6 )
+           type : 32
+     -
+       name : OPT_Separator
+       identifier : 0x23e9fc8e1052493b
+       internal_properties : CAAAAAgAAACWwGBNd0uBBxCls5IyB6WqX9EjMEdSzid2h3d/l7y/tK78QDk+IpAY4/W17+vUFg+rMXt3Ua/yic7IzlWJ4GADSf4uaG/dlZItPMhgUU3yYrvHkODC4PMZA+lkOsUVJ+H1VnAVDmtCNN5qD3QpkJKe7/gvb9TbGjlGyi2CFQ7M7TAgPgE+tDMwz6EJBbYyIyGQo6wdrJaXu1MidD7v/ocNb4uhHom4veCo+4jd6GXcMXurDejy2sbFn82bOr9SaK7NbHdsFOTKT1HBd450BBoawYfiAHIvvXDlUHIMcG69qqhSLAN4vx+6VtbDXkxPIfXAw/CjFr6m+sQrUYcJlbqZpXxs3yqPZtdgiJLnXBUgPQVnHDZraIpwIGharY6kyOATBx4HkUASVn7h5Q550aBIgDZduL7Yn89JhVBP
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_PARAGRAPH
+       identifier : 0x23e9fc8e1053493b
+       internal_properties : CAAAAAgAAADpBcoN/a3tVxSPvR4QnJNsKWI/Pq8Zi0wEIcr77lsk5hTyiMjGzRDZ3JU6X1tUvVAHeIGgzpTb06n3blKs84MFgWYs+o0tiP08Ihdfy3SzlatLU3OQc+aUQFiFJUK9ChCdSbs0rinA2kPSfKehbcgCv6Kf3YLw3FAPbqPxQb+wxLVx2y7U7xhu/23DD6fUId/lwu9n0RsOE85tASaCKtaHY1a+VJ6CJT30H/on0Z/X2+DzCzRpPFDPh6Iz3GkmCPnZgjAFq3YOJ3A8hDrfmu0ud0wK8kxrQb94l3LRTpqBk6KSw5Jrz2sfN4ejpvF11hz2UnswcbUl+KpNfXJNfDAV2bloCpT73X3uAjju6U1uHHi0cIjgSAejVELNJQ0t7vkNSsDe8CaoBCQrmvrU91z4Ay+malGo1C/gDqAaWj0=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            SelectionApply( Heading_None )
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_EXPORT
+    identifier : 0x23e9fc8e1054493b
+    internal_properties : CAAAAAgAAAAXSSrDWD9+kmnO0sKYPuykpVJyCxE8UsdzZG+oO6vikAizo/xEH/C5hWhSjm5nD8wJC20a9UtAGDNcLoTzOTtErqg9osmgBak1FVbpKS+8T2Kxz+vC/yzInK+Z5Ae60pZdy5MCVTwRp6MxQmeEM82sogk6b8AFJcrKXh4pFYSJq2T9GlRJPvvVgR/+ohQK+Nk37p5be9aUpPlP1aDvy4EimF9aMI3XP8+4LB0lHId3dB0WbA3EYE3jJzNl/HT/XA++oSYqy8msqrUYIPD+Ea2R/G7AtlZf5klF0/SXHI0BiAAlo9kryNykq+h0XH0hfqkhRHl0IDD30/+VvEzBv3ffBer3vXKhY4eV0whogzgE5KhQIuBz3Ry5XNawaeRqfohoS1JiGxtccVbwcZH1peRymFOD5ijzTOJvWC8SGk4xfEUnJv+Dj/o7MWWWyGw=
+    options :
+     -
+       name : OPT_SAVEAS_TEXT
+       identifier : 0x23e9fc8e1055493b
+       internal_properties : CAAAAAgAAADjshiVSkNAHCKCDDWQ/63EyGeAB5X4KPvVIAAVnHkE+lwv5pWwWKMJTmhih8k/vkBZk3Wn3cfzOYMjXcSdVWZwNeByY6Yqa9YeKzhBpmciaIAuDXaWcKN9hulisH58Ry2vHdCCPX3yIDht2ftiRW3ZTbJGPi7JtqwqaqkM5o0UOBSXUSH9gYS+68ojNo3ULEjZAZ1BV0bwqQb/gYfwdA4kBmIradvbYs/bKDKwVInUqixVzMD61Pd6P7yST0VAIMH/TFUCB7eDcd2fA4kDGItIdCB1wr3cdts17BWkw05B8jmsVbBniJHdWiGxvce9XrKu2eevB/tprK9c2hz9XUNq7PnQ+BXkSTiJZeYwjDvFpK8v6HvnH65IsJvVMKGjqiK9UMYVvKLLhZrjKNbGrNBBbm9eC5v04jrUTHngoRX3r5ZQoMcahQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            Export( iText )
+           type : 32
+     -
+       name : OPT_SAVEAS_DOC
+       identifier : 0x23e9fc8e1056493b
+       internal_properties : CAAAAAgAAABWD63g/GQ0wG9Ef2o1QSUc0tZoXlc9LtIrZhoJLK8yPUWc2bk1K6YTllrnA+i/nOVfWvmkfIKkyZLue14amJ6oCPP9mYnlnwzmh10opkIdOVKRK5HeIQKqAGGtemSEIeD6wj19e5EQaXCFIb/zttJWWYirw4AsIGMp8D538ctxAgChEsHXkWLbCtfbcseOgWyRpFtPGgMVkMkXyFHpfrQqUbCgmsmY/B/feo4I+aTmTDSxtnfxBK4NVV9r6lYllmzzIJhauqwxBv3dzVUm1Q7dcs68/oHhmG8egUd6ccxGFqoawzUp1Uq1DRxiOx29siQsrTM9vUUL0TTTUa8nF3lL76TSw1YqnXFqvn/TAR5FDu6Y6PMTdI7Hzg7UrYMVSrVSGE+gdq3Fkn2/PZeSvgBk/e3OijgrJxB2wagpNeQ8XPvCHoqDGYRNe9zr5qEY6EJxoJYlL3Oom2bW5S/cWZUv4gVvsEkS
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            Export( iRTF )
+           type : 32
+     -
+       name : OPT_SAVEAS_HTML
+       identifier : 0x23e9fc8e1057493b
+       internal_properties : CAAAAAgAAACShYFkSqhrR9as8u4Lrb7hp+HO+oQQdf3yWgKrRUxhH/FPuC27e1dXFbpVtIJeXsrscfEVG0hU7R/2cDK1ilypK57ILpIT43OcYnNfqQoS8wLQCJKFSA0eFm/nq4re2+WEJrdcwjE8+n9bwVeqf+loU9j7HkBxjbHz/2J873oewHMpjGkitnfRLovNDQTjmOcIahQqVisOEh8CdoOL9LhsCLsHlGFUQRrIlWC2o7SOFsV3pqN4t3r78WzCXdvNDmkqvlhuX7AlnJa6uG1n2rZkge9T7ryJONHk8FvRWutPs2cG/UMiSXWVXPyLuO+nJHunFUvvukW0XXtSG6oLFW1D/nJTPA4yKaqWPsOB11+gJyN6BrLqMfXjsQ+hNeEW3UxKSNg9FbUaEdFbg4Zcgss9h62lJ+I5WneKfZY+48DQlYvgiQE1
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            Export( iHTML )
+           type : 32
+     -
+       name : OPT_SAVEAS_PDF
+       identifier : 0x23e9fc8e1058493b
+       internal_properties : CAAAAAgAAAApfj13uh/f/v+7aeolgyrn4hR8NUn7JKFtB9ByIisIX7Ra5IdajITsZFq4Z87HhwZ7rOEreqMthJkB6JCSmYnK/BNYgJ0Lwx39nF8xoSx1Gksc8fN59Qta8i6k9adaH+wT+uvhvY7ljoidYnf8+bUZbnDpp3Sm4dQjHvK5eTUL6Jd4/D2mhFdWQcjsqELAG0q/z2aLz/i/v3tM4mfFhH/4whSP0dx4aaV+O4pM3zXWCRfSHr3PB+iEh5M5j1LmP/j7Y4y1rClYTutZ9gEIjs0YlQRCbdA5maIXkvRJZapwk46fOHovvdhG47S0mdk9O+X9UYa4p2Ecu9JzHM6WyzBnDXdFjDSs9ij0Bj/TtJz2mkbdTgoAxIDDcSyXYIwZehTszqLFFOR1jh9Crbg491tIov3KedSP88cvICg=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            Export( iPDF )
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_IMAGE
+    identifier : 0x23e9fc8e1059493b
+    internal_properties : CAAAAAgAAAAE/+g3UNkGKkypvpGuOPcTt7r5pt1s2fUwar820oWaCzH8q3v8O8lAPuH4rew1nTMvlGD2a1tbpPV6YcvKAhz4w5Y+Ao/F9MSKel6VZHGt64L+KkXQJ5Geq8cMIcBt2P8QXXP3XahdCT9yE2/HNN68ggkR7IJr1UrTr0lUOHcrhbGLdmIjEX8NVsyHj4OQeItpOczrFSZeTZ72xJ1ebdjCFUZMl2JrdNQ4rPTijUYQgvJ89yV+ItzDyKi7pZsLum/+wlxV/g2BtQN0sZPGzu+DW5vwFhDQfQ+WPnAtYHn+63XF+4twDj2tnbfPl/NYUlSMZyZhI31Z0L1HVnc6qr2gQmgTLEWXVnO96HKXZ3rlyTo20drhdvfvLaaBlmWMHJ+jfWMKb+xHnfdFFRc3g5xCk8cig4e3zkb1EaupyPDLVSbJcyXz/MgfatG8nskI8VtIXhC42tPgC8Bs
+    options :
+     -
+       name : OPT_URL
+       identifier : 0x23e9fc8e105a493b
+       internal_properties : CAAAAAgAAADVOqnDlgbkVxw+Qu+0ot0iNqlBziIKR9ouGJNBBp/Eosd9Hzzg1/jJ/sL5GoPne8hsah2vJyIwI/H7u4GT2A9iGr4U6fM2Pvphk/25xYHrPE4X3kAun03gXhcdceYCSQAiLMMsg6b+qdbZPNlDggsGj/9FaYKlf3h51TklR59acCfJYu+yxLKBvF6ujnwPodfRgeNtbwIVXpCdCTeMZeGM41EqhRuomHWKLvtAk2/Tw452cZru/nMRMImMkwzF0Z8CDiT19Ocu5DUZdF0NTv9xuxtW44AGw7xewt78JfO5L6zlGV72Y3pK2f5Q0Omjkl+66FMo9kHM6lU9vuKOoPiGqRm/aeCVnnKIPiAEIYVEh2AtXumTjJTGD287oVe20xN5SytIr+VkH5w/ubSEmblqHqNGx0ITf3Ob3FQ=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            sUrl is string
+            
+            if Input( "Specify the URL or path of the image to be inserted:", sUrl ) = 1 then
+            	SelectionApply( image, sUrl )	
+            end
+           type : 32
+     -
+       name : OPT_LOCAL
+       identifier : 0x23e9fc8e105b493b
+       internal_properties : CAAAAAgAAADWPYKJdms5Hp/7Zrl4kL3Oe8iIoCFDqk0R8l7WhQ4DXGAywjKOpgET7r9He57BxIwgMlrHHSL3S37VLbfwgea5/9Yo5Y9J6ct25vBSkimvRKvrMUFyknmZ/dS+UZ5YqNLZBDBPuTFyWZFgMc/YE0C7AqMQ1RRG3A/J8Zoq3O6F/4XBCO9r7b4VuP4E5xlx2OSQ1I4zr56GdUfp0PKLgfVLXxWjwcsyO0xkwVHX1xNNKMu/WhIAdjDQKgWHbOdyJZRcRVHzJ+/G0RFLIBpkqW8noIGcAnmt6KedSBA3UgZ1KF1OTkmFgGqNDdGxLkMQbJndKCffss0TlAb9lqDYb2GBYeRicxasZ3VoBanpN6aGFu3FvI4zb4Dg4Mg/FPAM976rRs/rH4hAi6ebnO5+C9De5faRMFlhV/kPE11peNLZWg==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAABBCFPbWv8CnBZXbCSzpODAYUvah738hvq3Be1hTJI2kOzhjIQNWDPdFHOecCe6zlOk0zDNT6MJR8VQr8QsG89J2Gm6VAnZqdEKTln9tmh4N1pChIREa5We4O56Y1AsGJqIB4md3a2bdElGIqZ1z8QgkO1iYhqjabERCWTtGoz2
+           code : |1-
+            
+            sLastPath	is string	= LoadParameter("markdown.image.lastpath", SysDir(srMyPictures))
+            
+            sFile		is string	= fImageSelect(sLastPath, "", "Choose an image...")
+            if sFile <> "" then
+            	
+            	sLastPath = fExtractPath(sFile, fDrive + fDirectory)
+            	SaveParameter("markdown.image.lastpath", sLastPath)
+            	
+            	SelectionApply( image, sFile )		
+            end
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAA43TXOxtV40AdLwtSUrnrPcIb7bsGkPEQvokqHQWcHCocZ3vaM/iDXhCqZZNwfTZ+CmKbuUj0/v8rZL237WSzuJ/ig5gnToqt60g==
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : SelectionApply
+     internal_properties : CAAAAAgAAABGCUoGIgiOtGFk6S0rQaG3TS9SNUBE0jiihBLYHoLaytugvhnHW+Wma38Bg1GsqOZ8zkMPJCM0X4gXxtqSs99JqqSqFFg5mskFgau6MEyUNK/FNAhFhefbF61VKlFT4bh3VC+Mzhwy4HTc260WQYMaMD9FXzQnkY0CGgBR5t9zVVDW
+     procedure_id : 1434955643136198971
+     type_code : 14
+     code : |1-
+      // Summary : Applies a Markdown 'style' to the current selection
+      // Syntax:
+      //SelectionApply (<eStyle> is IW_EDITOR.IW_EDITOR.MarkdownStyle [, <sOptions> is string])
+      //
+      // Parameters:
+      //	eStyle (IW_EDITOR.IW_EDITOR.MarkdownStyle): Markdown code before
+      //	sOptions (ANSI string - default value=""): Style options
+      // Return value:
+      // 	None
+      //
+      procedure private SelectionApply( local eStyle is MarkdownStyle, local sOptions is string = "" )
+      
+      sBefore, sAfter									are strings		
+      nCursor, nCursorEnd								are int		= ( EDT_MARKDOWN.Cursor, EDT_MARKDOWN.CursorEnd )
+      nStoreCursor, nStoreCursorEnd					are int		= ( nCursor, nCursorEnd )
+      nDiffCursor, nDiffEndCursor						are int
+      nDiffCursorSelection, nDiffEndCursorSelection	are int
+      ( sBefore, sAfter )											= StyleToMarkdown( ( eStyle ) )
+      bBeforeRegex							is boolean			= sBefore [=] "{0}"
+      bAfterRegex								is boolean			= sAfter [=] "{0}"
+      
+      // Extends the selected text
+      sSelectedText							is string			= SelectionExtend( nCursor, nCursorEnd, eStyle )
+      
+      // The selection has been collapsed
+      if nCursor > nStoreCursor then
+      	nDiffCursorSelection = nCursor - nStoreCursor
+      end
+      
+      // The selection has been collapsed
+      if nCursorEnd < nStoreCursorEnd then
+      	nDiffEndCursorSelection = nCursorEnd - nStoreCursorEnd
+      end
+      
+      // No text selected: No text style is applied, only paragraph styles
+      if sSelectedText = "" then
+      	if eStyle in ( bold, Italic, Bold_Italic, Strikethrough, Color ) then
+      		return
+      	end
+      	
+      	if eStyle = image
+      		// Text must be added for the image to appear		
+      		sSelectedText = "Static"
+      		nDiffEndCursorSelection += Length(sSelectedText)
+      		
+      	else if eStyle = link then
+      		// To add text, take the URL
+      		sSelectedText = URLExtractPath(sOptions, urlProtocol + urlDomain)
+      		nDiffEndCursorSelection += Length(sSelectedText)
+      	end
+      end
+      
+      // If a start token is used, make sure it is not already present
+      if eStyle = Heading_None _or_ ( sBefore <> "" _and_ sAfter = "" ) then
+      	
+      	// Apply a 'Heading' style
+      	if eStyle.nom [= "Heading_" then
+      		
+      		// List heading styles from 'largest' to 'smallest'
+      		for each eHeadingStyle of [ Heading_6, Heading_5, Heading_4, Heading_3, Heading_2, Heading_1, Quote ]
+      			
+      			sBeforeEx is string =  StyleToMarkdown( ( eHeadingStyle ) )
+      			
+      			// The text already has the style applied
+      			if CompareBefore( sSelectedText, sBeforeEx ) then
+      				
+      				// Stores the size of the selected text
+      				nDiffCursor		= sSelectedText.Size
+      				
+      				// Replace the 'before' part with an empty string
+      				sSelectedText	= Replace(sSelectedText, sBeforeEx, "")	
+      				
+      				// Subtract the new size from the selected text
+      				nDiffCursor -= sSelectedText.Size
+      				
+      				// Invert
+      				nDiffCursor = -nDiffCursor				
+      				break
+      			end
+      		end
+      		
+      	else if eStyle = Quote then
+      		
+      		// Stores the size of the selection
+      		nSizeBefore		is int	= sSelectedText.Size		
+      		
+      		// For each selected ligne			
+      		arrSelection	is array of strings
+      		StringToArray( sSelectedText, arrSelection, CR )
+      		bFound is boolean = False	
+      		
+      		for each sTextLineSelection, nLine of arrSelection
+      			
+      			// The text already has the style applied
+      			if CompareBefore( sTextLineSelection, sBefore ) then
+      				
+      				// Replace the 'before' part with an empty string
+      				sTextLineSelection[ 1 on sBefore.Size ]		= ""				
+      				bFound										= True		
+      			end
+      		end
+      		
+      		// Do not replace if the style was found
+      		if bFound then sBefore = ""
+      		
+      		// Applies before
+      		nLineNum is int = 1
+      		arrSelection.Applique( sTextLineSelection => {
+      			sTextLineSelection = Replace(sBefore, "{0}", nLineNum++) + sTextLineSelection
+      		} )
+      		
+      		// Rebuilds the selection
+      		arrSelection		= arrSelection.Filter(sTextLineSelection => sTextLineSelection <> "")
+      		sSelectedText		= arrSelection.ToString(bFound ? CR else CR + CR)
+      		
+      		// Move the cursor to the right by the same amount
+      		if nStoreCursor = nStoreCursorEnd then
+      			nDiffCursor		= -( nSizeBefore - sSelectedText.Size )
+      			nDiffEndCursor	= nDiffCursor
+      		else
+      			nDiffCursor		= 0
+      			nDiffEndCursor	= -( nSizeBefore - sSelectedText.Size )
+      		end
+      		
+      		// Modifies the current selection
+      		SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      		return
+      		
+      		// Apply a 'List' style
+      	else if eStyle.Nom [= "List"
+      		
+      		// Stores the size of the selection
+      		nSizeBefore		is int	= sSelectedText.Size
+      		
+      		// For each selected ligne			
+      		arrSelection	is array of strings
+      		StringToArray( sSelectedText, arrSelection, CR )
+      		
+      		// List the list styles to swap between them
+      		for each eHeadingStyle of [ List2, List, OrderedList, Heading_6, Heading_5, Heading_4, Heading_3, Heading_2, Heading_1, Quote ]
+      			
+      			// If positioned on the style to be applied, ignore it
+      			if eHeadingStyle = eStyle then continue
+      			
+      			sBeforeEx is string =  StyleToMarkdown( ( eHeadingStyle ) )
+      			
+      			for each sTextLineSelection, nLine of arrSelection
+      				
+      				// The text already has the style applied
+      				if CompareBefore( sTextLineSelection, sBeforeEx ) then
+      					
+      					// Replace the 'before' part with an empty string
+      					sTextLineSelection[ 1 on Length(sBeforeEx.Replace("{0}", nLine)) ] = ""						
+      				end
+      			end
+      		end
+      		
+      		// Rebuilds the selection			
+      		nLine	is int			
+      		bFound	is boolean	= False	
+      		
+      		for each sTextLineSelection, nLine of arrSelection						
+      			
+      			// If the text already begins with the requested list style
+      			if CompareBefore( sTextLineSelection,  sBefore ) then
+      				
+      				bFound																= True				
+      				
+      				// Replace the 'before' part with an empty string
+      				sTextLineSelection[ 1 on Length(sBefore.Replace("{0}", nLine)) ]	= ""					
+      			end				
+      		end
+      		
+      		// Do not replace if the style was found
+      		if bFound then sBefore = ""
+      		
+      		// Applies before
+      		nLineNum is int = 1
+      		arrSelection.Applique( sTextLineSelection => {
+      			sTextLineSelection = Replace(sBefore, "{0}", nLineNum++) + sTextLineSelection
+      		} )
+      		
+      		// Rebuilds the selection
+      		sSelectedText = arrSelection.ToString(CR)			
+      		
+      		// Move the cursor to the right by the same amount
+      		if nStoreCursor = nStoreCursorEnd then
+      			nDiffCursor		= -( nSizeBefore - sSelectedText.Size )
+      			nDiffEndCursor	= nDiffCursor
+      		else
+      			nDiffCursor		= 0
+      			nDiffEndCursor	= -( nSizeBefore - sSelectedText.Size )
+      		end
+      		
+      		// Modifies the current selection
+      		SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      		return
+      		
+      		// Special case for tab
+      	else if eStyle in ( Tabulation, TabShift ) then			
+      		
+      		// Stores the size of the selection
+      		nSizeBefore		is int	= sSelectedText.Size
+      		
+      		// For each selected ligne			
+      		arrSelection	is array of strings
+      		StringToArray( sSelectedText, arrSelection, CR )
+      		
+      		// Applies before
+      		arrSelection.Applique( sTextLineSelection => {
+      			
+      			// Cancel tab
+      			if eStyle = TabShift then
+      				if sTextLineSelection [= sBefore then
+      					sTextLineSelection[ 1 on sBefore.Size ] = ""
+      				end
+      				
+      				// Apply tab				
+      			else	
+      				sTextLineSelection = sBefore + sTextLineSelection 
+      			end			
+      			
+      		} )
+      		
+      		// Rebuilds the selection
+      		sSelectedText		= arrSelection.ToString(CR)			
+      		
+      		// Move the cursor to the right by the same amount
+      		nDiffCursor			= -( nSizeBefore - sSelectedText.Size )
+      		nDiffEndCursor		= nDiffCursor
+      		
+      		// Modifies the current selection
+      		SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      		return
+      	end		
+      	
+      	sSelectedText	= sBefore + sSelectedText	
+      	
+      	// Move the cursor to the right by the same amount
+      	nDiffCursor		= sBefore.Size + nDiffCursor
+      	nDiffEndCursor	+= nDiffCursor			
+      	
+      	// Modifies the current selection
+      	SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      	
+      	// If the same tokens are applied before and after, check before/after pairs
+      else if sBefore <> "" _and_ sAfter <> "" then
+      	
+      	// The text already has the style applied
+      	if CompareBefore( sSelectedText )  _and_ CompareAfter( sSelectedText ) then
+      		
+      		// With option on the 'before' part
+      		if bBeforeRegex then
+      			
+      			// If it is the same option: Delete style, otherwise replace
+      			if sSelectedText [= sBefore.Replace("{0}", sOptions) then
+      				
+      				// Stores the size of the selected text
+      				nDiffCursor		= sSelectedText.Size
+      				
+      				// Replace the 'before' part with an empty string
+      				sSelectedText	= RegexReplace(sSelectedText, ToRegex( sBefore, *, False ), "")				
+      				
+      				// Subtract the new size from the selected text
+      				nDiffCursor -= sSelectedText.Size
+      				
+      				// Invert
+      				nDiffCursor = -nDiffCursor				
+      				
+      			else
+      				
+      				// Replace the 'before' part with an empty string
+      				sSelectedText = RegexReplace(sSelectedText, ToRegex( sBefore, *, False ), sBefore.Replace("{0}", sOptions))								
+      				
+      				// Modifies the current selection
+      				SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      				return
+      			end			
+      			
+      			// With option on the 'after' part
+      		else if bAfterRegex then
+      			
+      			// If it is the same option: Delete style, otherwise replace
+      			if sSelectedText =] sAfter.Replace("{0}", sOptions) then
+      				
+      				// Replace the 'after' part with an empty string
+      				sSelectedText = RegexReplace(sSelectedText, ToRegex( sAfter, True, False ), "")				
+      				
+      			else
+      				
+      				// Replace the 'after' part with an empty string
+      				sSelectedText = RegexReplace(sSelectedText, ToRegex( sAfter, True, False ), sAfter.Replace("{0}", sOptions))								
+      				
+      				// Modifies the current selection
+      				SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      				return
+      			end
+      			
+      		else
+      			
+      			// Deletes the before part
+      			sSelectedText[ to sBefore.Size ]	= ""
+      			
+      			// Move the cursor to the left by the same amount
+      			nDiffCursor							= -sBefore.Size
+      		end
+      		
+      		// Replace 'after'
+      		if bAfterRegex then
+      			
+      			if nStoreCursor = nCursor then
+      				nDiffCursor		= 0
+      				nDiffEndCursor	= -( sBefore.Size + sAfter.Size )
+      			else
+      				nDiffCursor		= -sBefore.Size
+      				nDiffEndCursor	= nDiffCursor
+      			end
+      			
+      			// Deletes the before part
+      			sSelectedText[ to sBefore.Size ]	= ""
+      			
+      			// Replace 'before'
+      		else	
+      			
+      			if nStoreCursor = nCursor then
+      				nDiffCursor		= 0
+      				nDiffEndCursor	= -( sBefore.Size + sAfter.Size )
+      			else
+      				nDiffEndCursor = nDiffCursor
+      			end
+      			
+      			// Deletes the 'after' part of the selected text
+      			sSelectedText[ sSelectedText.Size - sAfter.Size + 1 to ] = ""
+      		end
+      	else
+      		
+      		// Completes the before part with the provided options
+      		sBefore				= sBefore.Replace("{0}", sOptions)
+      		sAfter				= sAfter.Replace("{0}", sOptions)
+      		
+      		// Applies the style			
+      		sSelectedText		= sBefore + sSelectedText + sAfter
+      		
+      		// Move the cursor to the right by the same amount
+      		nDiffCursor 	+= sBefore.Size
+      		nDiffEndCursor = nDiffCursor
+      	end
+      	
+      	// Modifies the current selection
+      	SelectionModify( sSelectedText, nCursor, nCursorEnd, nDiffCursor + nDiffCursorSelection, nDiffEndCursor + nDiffEndCursorSelection )
+      end
+      
+      	INTERNAL PROCEDURE CompareBefore( sText is string, sTextBefore is string = sBefore )
+      		if bBeforeRegex then
+      			return RegexSearch( sText, ToRegex( sTextBefore ) + "[^[:space:][:punct:]]", [] ) > 0
+      		else
+      			return sText [= sTextBefore
+      		end
+      	end	
+      
+      	INTERNAL PROCEDURE CompareAfter( sText is string, sTextAfter is string = sAfter )
+      		if bAfterRegex then
+      			return RegexSearch( sText, ToRegex( sTextAfter, True ), [] ) > 0
+      		else
+      			return sText =] sTextAfter
+      		end
+      	end	
+     type : 458752
+   -
+     name : SelectionExtend
+     internal_properties : CAAAAAgAAADCrDvCNlsnDTI3JpEQAj1E1a5vL2jx1lUq2jD6y4BVILJulKlDApyHKucAvmee7pos+anHgMN8WS88IodgdVObied/bUWn3FL4KLZiy8kGZWzp0lXu9WM3mQRg1oNxtXKHC9G/aXD8/SmJNBjaXA3oeqVNSHatDHzK46dsmkGpTs+MiM4LpyUo/5xdUJ6APGkqAk8tSx+5oT2gUm8TxkYBZRUsdVc7u2Mp5qn7IHbyF2cMy9phAl3V7zO4T+d0oo9cSxW/Qqxm2VfFQQ==
+     procedure_id : 1434955643136264507
+     type_code : 14
+     code : |1-
+      // Summary: Virtually extends the current selection to apply the style 
+      // Syntax:
+      //[ <Result> = ] SelectionExtend (<nCursor> is int, <nCursorEnd> is int, <eStyle> is IW_EDITOR.IW_EDITOR.MarkdownStyle)
+      //
+      // Parameters:
+      //	nCursor (integer): Cursor position (can be modified)
+      //	nCursorEnd (integer): End position of the cursor (can be modified)
+      //	eStyle (IW_EDITOR.IW_EDITOR.MarkdownStyle): Style to apply
+      
+      // Return value:
+      // 	ANSI string: Virtually selected text
+      //
+      procedure private SelectionExtend( nCursor is int, nCursorEnd is int, local eStyle is MarkdownStyle ) : string
+      
+      sSelection	is string	= EDT_MARKDOWN.SelectedText
+      sTextBefore	is string	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]
+      sTextAfter	is string	= EDT_MARKDOWN[[ nCursorEnd to ]]
+      
+      ///////////////////////////////////////
+      // Corrections
+      ///////////////////////////////////////
+      
+      // Select the color
+      if RegexMatch("<span " + sSelection, "<span style=""color:[^""]+"">.*<\/span>") then
+      	
+      	// Update the selection
+      	nCursor -= 6		
+      	sTextBefore	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]
+      	
+      	// Modifies the virtual selection
+      	sSelection	= EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]
+      end
+      
+      // Case of links and images
+      if ( sSelection [= "[" _and_ sSelection =] "]" )  then
+      	
+      	if RegexMatch(sTextAfter, "\]?\(.*\).*") then	
+      		
+      		// This is an image
+      		if sTextBefore =] "!" _or_ sTextBefore =] "![" then				
+      			
+      			// Extend the selection
+      			nCursor --
+      			nCursorEnd += sTextAfter.Position(")") - 1
+      			
+      		else
+      			
+      			// Reduce the selection
+      			nCursor ++					
+      			nCursorEnd --						
+      		end
+      		
+      		// Modifies text before and after
+      		sTextBefore	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]					
+      		sTextAfter	= EDT_MARKDOWN[[ nCursorEnd to ]]				
+      		
+      		// Modifies the virtual selection
+      		sSelection	= EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]				
+      		
+      	end
+      	
+      else if ( sTextBefore =] "[" _and_ sTextAfter [= "]" ) then	
+      	
+      	if RegexMatch(sTextAfter, "\]?\(.*\).*") then
+      		
+      		// This is an image
+      		if sTextBefore =] "!" _or_ sTextBefore =] "![" then				
+      			
+      			// Extend the selection
+      			if sTextBefore =] "!" then nCursor --
+      			if sTextBefore =] "![" then nCursor -= 2
+      			
+      			nCursorEnd += sTextAfter.Position(")")
+      		end			
+      		
+      		// Modifies text before and after
+      		sTextBefore	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]					
+      		sTextAfter	= EDT_MARKDOWN[[ nCursorEnd to ]]				
+      		
+      		// Modifies the virtual selection
+      		sSelection	= EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]		
+      	end		
+      end	
+      
+      // Checks all possible styles
+      switch eStyle
+      
+      	// Lines
+      	case Heading_1, Heading_2, Heading_3, Heading_4, Heading_5, Heading_6, Heading_None
+      		
+      		// Return to the beginning of the line
+      		nEndPos		is int	= Min(nCursor, Length(EDT_MARKDOWN))
+      		nStartPos	is int	= Max(1, Position(EDT_MARKDOWN, CR, nEndPos - 1, FromEnd))		
+      		
+      		if nStartPos > nEndPos then
+      			nStartPos <=> nEndPos
+      		end
+      		
+      		// Removes the Carriage Return
+      		sTextBefore = EDT_MARKDOWN[[ nStartPos to ]]
+      		while sTextBefore[ 1 ] in ( Charact(10), Charact(13) )
+      			nStartPos ++
+      			sTextBefore = EDT_MARKDOWN[[ nStartPos to ]]
+      		end
+      		
+      		// Modifies the virtual cursor
+      		nCursor		= nStartPos
+      		nCursorEnd	= Position(EDT_MARKDOWN, CR, nStartPos)			
+      		if nCursorEnd < 1 then nCursorEnd = Length(EDT_MARKDOWN) + 1
+      		
+      		// Update
+      		sSelection = EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]
+      		
+      	// Paragraphs
+      	case List, List2, OrderedList, Quote
+      		
+      		// Return to the beginning of the line
+      		nEndPos		is int	= Min(nCursor, Length(EDT_MARKDOWN))
+      		nStartPos	is int	= Max(1, Position(EDT_MARKDOWN, CR, nEndPos - 1, FromEnd))		
+      		
+      		if nStartPos > nEndPos then
+      			nStartPos <=> nEndPos
+      		end
+      		
+      		// Removes the Carriage Return
+      		sTextBefore = EDT_MARKDOWN[[ nStartPos to ]]
+      		while sTextBefore[ 1 ] in ( Charact(10), Charact(13), TAB, " " )
+      			nStartPos ++
+      			sTextBefore = EDT_MARKDOWN[[ nStartPos to ]]
+      		end
+      		
+      		// Modifies the virtual cursor
+      		nCursor		= nStartPos
+      		nCursorEnd	= Position(EDT_MARKDOWN, CR, nStartPos + Length(sSelection) - 1)			
+      		if nCursorEnd < 1 then nCursorEnd = Length(EDT_MARKDOWN) + 1
+      		
+      		// Update
+      		sSelection = EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]		
+      		
+      	// Paragraphs
+      	case Tabulation, TabShift
+      		
+      		// Return to the beginning of the line
+      		nEndPos		is int	= Min(nCursor, Length(EDT_MARKDOWN))
+      		nStartPos	is int	= Max(1, Position(EDT_MARKDOWN, CR, nEndPos - 1, FromEnd))		
+      		
+      		// Removes the Carriage Return
+      		sTextBefore = EDT_MARKDOWN[[ nStartPos to ]]
+      		while sTextBefore[ 1 ] in ( Charact(10), Charact(13) )
+      			nStartPos ++
+      			sTextBefore = EDT_MARKDOWN[[ nStartPos to ]]
+      		end
+      		
+      		// Modifies the virtual cursor
+      		nCursor		= nStartPos
+      		nCursorEnd	= Position(EDT_MARKDOWN, CR, nStartPos + Length(sSelection) - 1)			
+      		if nCursorEnd < 1 then nCursorEnd = Length(EDT_MARKDOWN) + 1
+      		
+      		// Update
+      		sSelection = EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]		
+      		
+      	// Pairs			
+      	case bold, Italic, Bold_Italic, Strikethrough, Color, image, link	
+      		
+      		// Step 1: If no text is selected (e.g. a cursor positioned on a word)
+      		// Automatically extend selection to the word at cursor position
+      		if sSelection = "" then
+      			
+      			nSpaceBefore, nSpaceAfter	are int
+      			arrSpc						is array of strings	= [ " ", "*", ">", "<", "[", "]", "(", ")" ]
+      			if eStyle in (image, link) then arrSpc.Add(CR)
+      			
+      			nSpaceBefore	= sTextBefore.Position(arrSpc, sTextBefore.Size, FromEnd)
+      			nSpaceAfter		= sTextAfter.Position(arrSpc)
+      			
+      			if nSpaceBefore < 1 then nSpaceBefore = 0
+      			if nSpaceAfter < 1 then nSpaceAfter = sTextAfter.Position(CR, nCursorEnd)
+      			if nSpaceAfter < 1 then nSpaceAfter = sTextAfter.Size + 1
+      			
+      			// Update virtual selection
+      			nCursor		= nSpaceBefore + 1
+      			nCursorEnd	= nCursorEnd + ( nSpaceAfter - 1 )
+      			
+      			// New selected text
+      			sSelection	= EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]
+      			while sSelection [= CR 
+      				nCursor += 2
+      				sSelection = EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]
+      			end
+      			
+      			// Update before/after parts
+      			sTextBefore	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]
+      			sTextAfter	= EDT_MARKDOWN[[ nCursorEnd to ]]
+      		end
+      		
+      		// Step 2: Removes spaces
+      		while sSelection [= " "
+      			
+      			nCursor ++
+      			
+      			// New selected text
+      			sSelection	= EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]
+      			
+      			// Update before/after parts
+      			sTextBefore	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]
+      			sTextAfter	= EDT_MARKDOWN[[ nCursorEnd to ]]
+      		end
+      		
+      		while sSelection =] " "
+      			
+      			nCursorEnd --
+      			
+      			// New selected text
+      			sSelection	= EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]
+      			
+      			// Update before/after parts
+      			sTextBefore	= EDT_MARKDOWN[[ 1 to nCursor - 1 ]]
+      			sTextAfter	= EDT_MARKDOWN[[ nCursorEnd to ]]
+      		end
+      		
+      		arrOccurrences	is array of strings		
+      		sBefore, sAfter	are strings	
+      		
+      		// If italic formatting is applied
+      		if eStyle = Italic then
+      			
+      			// First, check for 'Bold+Italic'
+      			if __AnalyzeBefore( nCursor, Bold_Italic ) = False then
+      				
+      				// Otherwise, check for 'Italic'					
+      				__AnalyzeBefore( nCursor, Italic )
+      				__AnalyzeAfter( nCursorEnd, Italic )
+      			else
+      				__AnalyzeAfter( nCursorEnd, Bold_Italic )
+      			end
+      		else 
+      			
+      			if sSelection ~= "" _or_ sSelection in ( CR, Charact(10) ) then
+      				sSelection = ""
+      			else
+      				
+      				// Check for <style>
+      				__AnalyzeBefore( nCursor, eStyle )
+      				__AnalyzeAfter( nCursorEnd, eStyle )			
+      			end
+      		end
+      		
+      			// Analyze the text before the cursor to check if the style should be applied or removed
+      			INTERNAL PROCEDURE __AnalyzeBefore( nCursorEx is int, eStyleEx is MarkdownStyle )		
+      				
+      				( sBefore, sAfter ) = StyleToMarkdown( eStyleEx )				
+      				bBeforeRegex	is boolean	= sBefore [=] "{0}"
+      				bAfterRegex		is boolean	= sAfter [=] "{0}"
+      				sExclusion		is string	= CalculateExclusion()
+      				
+      				// Count the number of <before>*<after>
+      				RegexSearch( sTextBefore, ToRegex( sBefore ) + sExclusion + ToRegex( sAfter, True ), arrOccurrences )
+      				
+      				// Deletes occurrences
+      				sTextBefore = sTextBefore.Replace(arrOccurrences, "")
+      				
+      				// If there is an occurrence of 'before'
+      				if ContainsEx( sTextBefore, bBeforeRegex, sBefore, True ) then
+      					
+      					// Stores the current start cursor
+      					nBackupCursor is int = nCursorEx				
+      					
+      					// Calculates the new position of the start cursor to take into account the 'before'
+      					let N = Position(EDT_MARKDOWN, sBefore.ExtractString(1, "{0}"), nCursorEx, FromEnd)
+      					
+      					// Checks the sought element is present
+      					if RegexSearch( EDT_MARKDOWN[[ N to ]], ToRegex( sBefore ) + sExclusion, [] ) > 0 then
+      						nCursorEx	= N
+      						
+      						// Changes the selected text
+      						sSelection	= EDT_MARKDOWN[[ nCursorEx to nBackupCursor - 1 ]] + sSelection
+      						
+      						return True
+      					end
+      				end			
+      				
+      				return False
+      			end
+      		
+      			// Analyze the text after the cursor to check if the style should be applied or removed
+      			INTERNAL PROCEDURE __AnalyzeAfter( nCursorEx is int, eStyleEx is MarkdownStyle )		
+      				
+      				( sBefore, sAfter ) = StyleToMarkdown( eStyleEx )				
+      				bBeforeRegex	is boolean	= sBefore [=] "{0}"
+      				bAfterRegex		is boolean	= sAfter [=] "{0}"
+      				sExclusion		is string	= CalculateExclusion()
+      				
+      				// Count the number of <before>*<after>
+      				RegexSearch( sTextAfter, ToRegex( sBefore ) + sExclusion + ToRegex( sAfter, True ), arrOccurrences )
+      				
+      				// Deletes occurrences
+      				sTextAfter = sTextAfter.Replace(arrOccurrences, "")
+      				
+      				// If there is an occurrence of 'before'
+      				if ContainsEx( sTextAfter, bAfterRegex, sAfter, False ) then
+      					
+      					// Stores the current start cursor
+      					nBackupCursor	is int		= nCursorEx			
+      					
+      					sAfterEx		is string	= sAfter.ExtractString(2, "{0}")	
+      					if sAfterEx = EOT then sAfterEx = sAfter.ExtractString(1, "{0}")	
+      					
+      					// Calculates the new position of the end cursor to take into account the 'after'
+      					nCursorEx	= Position(EDT_MARKDOWN, sAfterEx, nCursorEx) + Length(sAfterEx)
+      					
+      					// Changes the selected text
+      					sSelection	= sSelection + EDT_MARKDOWN[[ nBackupCursor to nCursorEx - 1 ]]
+      					
+      					return True
+      				end			
+      				
+      				return False
+      			end
+      		
+      			// Generates a regular expression to exclude characters
+      			INTERNAL PROCEDURE CalculateExclusion()
+      				
+      				return "(?:" + "(?!(" + ToRegex( sBefore, *, False ) + ".*" + ToRegex( sAfter, *, False ) + "))" + ".)"
+      			end
+      		
+      			// Advanced version of the Contains function
+      			INTERNAL PROCEDURE ContainsEx( sText is string, bRegEx is boolean, sPart is string, bBefore is boolean )
+      				
+      				sExclusion is string = CalculateExclusion()
+      				
+      				// if there is a regular expression
+      				if bRegEx then
+      					
+      					// checks for the text in the part
+      					if bBefore then
+      						return RegexSearch( sText, sExclusion + ToRegex( sPart ), [] ) > 0						
+      					else
+      						return RegexSearch( sText, ToRegex( sPart ) + sExclusion, [] ) > 0
+      					end
+      				else
+      					
+      					// checks for the text in the part
+      					if sText [=] sPart then
+      						
+      						if bBefore then
+      							
+      							nPos is int = sText.Position(sPart, sText.Size, FromEnd) - sPart.Size
+      							
+      							// check that there is not another part before the current part
+      							if sText[ nPos on sPart.Size ] <> sPart then
+      								return True
+      							end
+      						else
+      							// check that there is not another part after the current part
+      							if sText[ sText.Position(sPart) + sPart.Size on sPart.Size ] <> sPart then
+      								return True
+      							end
+      						end
+      					end
+      				end
+      				
+      				return False
+      			end	
+      		
+      end
+      
+      
+      return sSelection
+     type : 458752
+   -
+     name : SelectionModify
+     procedure_id : 1434955643136330043
+     type_code : 14
+     code : |1+
+      // Summary: Modifies the text of the selection
+      // Syntax:
+      //SelectionModify (<sText> is string, <nCursor> is int, <nCursorEnd> is int, <nDiffCursor> is int, <nDiffEndCursor> is int)
+      //
+      // Parameters:
+      //	sText (ANSI string): Modified text
+      //	nCursor (integer): Start position
+      //	nCursorEnd (integer): End position
+      //	nDiffCursor (integer): Difference to apply to the start cursor
+      //	nDiffEndCursor (integer): Difference to apply to the end cursor
+      // Return value:
+      // 	None
+      //
+      procedure private SelectionModify( sText is string, nCursor is int, nCursorEnd is int, nDiffCursor is int,nDiffEndCursor is int )
+      
+      // Stores the current selection
+      nStoreCursor, nStoreCursorEnd are int = ( EDT_MARKDOWN.Cursor, EDT_MARKDOWN.CursorEnd )
+      
+      EDT_MARKDOWN.DisplayEnabled					= False
+      STC_MARKDOWN.DisplayEnabled					= False
+      
+      // Update
+      EDT_MARKDOWN[[ nCursor to nCursorEnd - 1 ]]	= sText
+      
+      // Re-applies the stored selection
+      EDT_MARKDOWN.Cursor							= nStoreCursor + nDiffCursor
+      EDT_MARKDOWN.CursorEnd						= nStoreCursorEnd + nDiffEndCursor
+      
+      DisplayMarkdown()	
+      
+      STC_MARKDOWN.DisplayEnabled	= True
+      EDT_MARKDOWN.DisplayEnabled	= True
+     type : 458752
+   -
+     name : StyleToMarkdown
+     procedure_id : 1434955643136395579
+     type_code : 14
+     code : |1-
+      // Summary: Converts a style to text
+      // Syntax:
+      //[ <Result> = ] StyleToMarkdown (<eStyle> is IW_EDITOR.IW_EDITOR.MarkdownStyle)
+      //
+      // Parameters:
+      //	eStyle (IW_EDITOR.IW_EDITOR.MarkdownStyle): Style
+      // Return value:
+      // 	multi-value: Text before, text after
+      //
+      procedure private StyleToMarkdown( eStyle is MarkdownStyle ) : ( string, string )
+      
+      switch eStyle
+      	case bold
+      		return ( "**", "**" )
+      		
+      	case Italic
+      		return ( "*", "*" )
+      		
+      	case Bold_Italic
+      		return ( "***", "***" )
+      		
+      	case Strikethrough
+      		return ( "~~", "~~" )			
+      		
+      	case Color
+      		return ( "<span style=""color:{0}"">", "</span>" )	
+      		
+      	case link
+      		return ( "[", "]({0})")
+      		
+      	case image
+      		return ( "![", "]({0})")
+      		
+      	case List
+      		return ( "- ", "" )
+      		
+      	case List2
+      		return ( "* ", "" )
+      		
+      	case OrderedList
+      		return ( "{0}. ", "" )
+      		
+      	case Quote
+      		return ( "> ", "" )
+      		
+      	case Tabulation
+      		return ( TAB, "" )
+      		
+      	case TabShift
+      		return ( TAB, "" )
+      		
+      	case Heading_1
+      		return ( "# ", "" )	
+      		
+      	case Heading_2
+      		return ( "## ", "" )	
+      		
+      	case Heading_3
+      		return ( "### ", "" )	
+      		
+      	case Heading_4
+      		return ( "#### ", "" )	
+      		
+      	case Heading_5
+      		return ( "##### ", "" )	
+      		
+      	case Heading_6
+      		return ( "###### ", "" )	
+      		
+      	case Heading_None
+      		return ( "", "" )	
+      		
+      end
+      
+      dbgAssert(False, "Unknown style")
+      
+      return ( "", "" )
+     type : 458752
+   -
+     name : ToRegex
+     internal_properties : CAAAAAgAAABnUWatHZUXMoDb8Dy57Vr5+ic//F/Y/IEPvb78nKEJSVeikCR1rh3dNvUTGqCO8yTFCDhYZt7PA4euLU4nuVUtZNjRPJgRAUNpSz/1BQM/M7T3ZS6tif+TygtiXqVlQWvaRbK/vHrORgiqWwA=
+     procedure_id : 1434955643136461115
+     type_code : 14
+     code : |1-
+      // Summary: Protects a given text to be used with regular expressions
+      // Syntax:
+      //[ <Result> = ] ToRegex (<sText> is string [, <bPrecede> is boolean [, <bWholeWord> is boolean]])
+      //
+      // Parameters:
+      //	sText (ANSI string): Text to protect
+      //	bPrecede (boolean - default value=0): True if this text can be preceded by other characters (without spaces), False otherwise
+      // 	bWholeWord (boolean - default=1): True if the text is a whole word, False otherwise
+      
+      // Return value:
+      // 	ANSI string: Text with protected sequences
+      //
+      procedure private ToRegex( local sText is string, bPrecede is boolean = False, bWholeWord is boolean = True ) : string
+      
+      sText	= sText.Replace("\", "\\")
+      sText	= sText.Replace("*", "\*")
+      sText	= sText.Replace(".", "\.")
+      sText	= sText.Replace("/", "\/")
+      sText	= sText.Replace("~", "\~")
+      sText	= sText.Replace("!", "\!")
+      sText	= sText.Replace("(", "\(")
+      sText	= sText.Replace(")", "\)")
+      sText	= sText.Replace("[", "\[")
+      sText	= sText.Replace("]", "\]")
+      sText	= sText.Replace("{0}", "[^""]+")
+      
+      if bWholeWord then
+      	if sText not =] " " then
+      		if bPrecede then
+      			sText = "[^\s]*" + sText
+      		else
+      			sText += "[^\s]*"
+      		end
+      	end
+      end
+      
+      return sText
+     type : 458752
+   -
+     name : __OnTab
+     procedure_id : 1434955643136526651
+     type_code : 14
+     code : |1-
+      // Summary: Manages tab characters
+      // Syntax:
+      // __OnTab ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private __OnTab()
+      
+      // If there is a selection
+      if EDT_MARKDOWN.SelectedText <> "" then
+      	
+      	if KeyPressed(kpShift) then
+      		SelectionApply( TabShift )
+      	else	
+      		SelectionApply( Tabulation )
+      	end
+      	
+      	return False
+      end		
+      
+      // If the position is set at the beginning of a line or just before a tab
+      if EDT_MARKDOWN.Cursor = 1 _or_ EDT_MARKDOWN[[ EDT_MARKDOWN.Cursor - 2 on 2 ]] = CR _or_ ( EDT_MARKDOWN[[ EDT_MARKDOWN.Cursor - 1 on 1 ]] = TAB _or_ EDT_MARKDOWN[[ EDT_MARKDOWN.Cursor - Length(TAB_SPACES) on Length(TAB_SPACES) ]] = TAB_SPACES ) then
+      	
+      	if KeyPressed(kpShift) then
+      		SelectionApply( TabShift )
+      	else	
+      		SelectionApply( Tabulation )
+      	end
+      	
+      	return False
+      end
+      
+      // If a list is declared just before the character
+      if EDT_MARKDOWN[[ EDT_MARKDOWN.Cursor - 2 on 2 ]] = "- " _or_ EDT_MARKDOWN[[ EDT_MARKDOWN.Cursor - 2 on 2 ]] = "* " then
+      	
+      	if KeyPressed(kpShift) then
+      		SelectionApply( TabShift )
+      	else	
+      		SelectionApply( Tabulation )
+      	end
+      	
+      	return False
+      end
+      
+      // CTRL+TAB to insert a tab in the text	
+      if KeyPressed(kpControl) then
+      	return True
+      end
+      
+      return False
+     type : 458752
+   -
+     name : Export
+     internal_properties : CAAAAAgAAAAUv/hswTZwfp2CLVlRv0mv8TVWmfZS1j5TCGoQqgaGxkskTlkbh0EeeyuBQ53o/PIcKktXMP/oLzB7TgrOTyN1coLsYgoPxCePHzUwInpu+unDnh4nm8H50QsfYAt5s7ZpWgG6gFokNnbT3KYFgkIDIziQBJf8jOJx15v+wT2dA/4E
+     procedure_id : 1434955643136592187
+     type_code : 14
+     group : 4
+     code : |1+
+      // Summary: Exports the Markdown text
+      // Syntax:
+      //Export (<nFormat> is int)
+      //
+      // Parameters:
+      //	nFormat (integer): Export format
+      // Return value:
+      // 	None
+      //
+      procedure Export( nFormat is int )
+      
+      if __MyInternalWin.AllowExport = False then
+      	return
+      end
+      
+      sFile is string
+      
+      switch nFormat
+      	case iText
+      		
+      		// Opens the file picker
+      		sFile = fSelect("", "", "Save as...", "All files (*.*)" + TAB + "*.*" + CR + "Text files (*.txt)" + TAB + "*.TXT", "TXT", fselCreate + fselExist)
+      		if sFile <> "" then
+      			fSaveText(sFile, MarkdownToText(EDT_MARKDOWN)) 
+      		end
+      		
+      	case iHTML
+      		
+      		// Opens the file picker
+      		sFile = fSelect("", "", "Save as...", "All files (*.*)" + TAB + "*.*" + CR + "HTML files (*.html,*.htm)" + TAB + "*.HTML;*.HTM", "HTML", fselCreate + fselExist)
+      		if sFile <> "" then
+      			
+      			sHTML is string ANSI = MarkdownToHTML(EDT_MARKDOWN)
+      			
+      			// MarkdownToHTML returns a UTF-8 string
+      			// Specify the format in the generated HTML
+      			sHTML = "<html><head><meta charset=""UTF-8""></head><body>" + sHTML + "</body></html>"
+      			
+      			fSaveBuffer(sFile, sHTML) 
+      		end
+      		
+      	case iRTF
+      		
+      		// Opens the file picker
+      		sFile = fSelect("", "", "Save as...", "All files (*.*)" + TAB + "*.*" + CR + "Word documents (*.docx)" + TAB + "*.DOCX", "DOCX", fselCreate + fselExist)
+      		if sFile <> "" then
+      			
+      			// Conversion
+      			docExp is Document = MarkdownToDOCX(EDT_MARKDOWN)
+      			
+      			// Save
+      			docExp.Save(sFile) 
+      		end		
+      		
+      	case iPDF
+      		
+      		// Opens the file picker
+      		sFile = fSelect("", "", "Save as...", "All files (*.*)" + TAB + "*.*" + CR + "PDF files (*.pdf)" + TAB + "*.PDF", "PDF", fselCreate + fselExist)
+      		if sFile <> "" then
+      			fSaveBuffer(sFile, MarkdownToPDF(EDT_MARKDOWN)) 
+      		end
+      end
+      
+      if sFile <> "" then
+      	ShellExecute(sFile)
+      end
+     type : 458752
+   -
+     name : DisplayMarkdown
+     procedure_id : 1434955643136657723
+     type_code : 14
+     code : |1+
+      // Summary: Displays the Markdown result
+      // Syntax:
+      // DisplayMarkdown ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private DisplayMarkdown()
+      
+      STC_MARKDOWN				= EDT_MARKDOWN
+      
+      SC_MARKDOWN.UsefulWidth		= Max(SC_MARKDOWN.Width, TextWidth(STC_MARKDOWN, EDT_MARKDOWN, tDefault))
+      SC_MARKDOWN.UsefulHeight	= Max(SC_MARKDOWN.Height, TextHeight(STC_MARKDOWN, EDT_MARKDOWN, tMultiline + tWithMargin))
+      
+      STC_MARKDOWN.Width			= SC_MARKDOWN.UsefulWidth
+      STC_MARKDOWN.Height			= SC_MARKDOWN.UsefulHeight
+     type : 458752
+   -
+     name : __PressKey
+     procedure_id : 1434955643136723259
+     type_code : 14
+     code : |1-
+      // Summary: Handles the press event specific keys
+      // Syntax:
+      //[ <Result> = ] __PressKey (<Keys> is associative array (string))
+      //
+      // Parameters:
+      //	Keys (associative array (ANSI string)): Keys
+      // Return value:
+      // 	boolean: True if the key was handled, False otherwise
+      //
+      procedure private __PressKey( Keys is ASSOCIATIVE ARRAY of strings ) : boolean
+      
+      nCursor, nEndCursor	are int		= ( EDT_MARKDOWN.Cursor, EDT_MARKDOWN.CursorEnd )
+      bLabel				is boolean
+      
+      // Checks if we are in an image label or a link label
+      sBefore				is string	= EDT_MARKDOWN[[ to nCursor - 1 ]]
+      sAfter				is string	= EDT_MARKDOWN[[ nCursor to ]]
+      
+      if Position(sBefore, [ "[", "![" ], Length(sBefore), FromEnd) > Position(sBefore, "]", Length(sBefore), FromEnd) then
+      	if Position(sAfter, [ "[", "![" ]) = 0 _or_ Position(sAfter, [ "[", "![" ]) > Position(sAfter, "]") then
+      		bLabel = True
+      	end
+      end
+      
+      if bLabel then
+      	
+      	for each sReplacement, sKey of Keys
+      		if _EVE.wParam = Asc(sKey) then
+      			if KeyPressed(kpShift) = False then
+      				
+      				// Allow these characters at the beginning of the line
+      				if sKey in ( "#", "-", "`" ) then
+      					return False
+      				end
+      				
+      				EDT_MARKDOWN[[ nCursor - 1 on 1 ]]				= sReplacement
+      				EDT_MARKDOWN.Cursor								= nCursor + 1
+      				EDT_MARKDOWN.CursorEnd							= nEndCursor + 1
+      				return True				
+      			end
+      		end
+      	end
+      end
+      
+      return False
+     type : 458752
+   -
+     name : __OnEnterKey
+     procedure_id : 1434955643136788795
+     type_code : 14
+     code : |1-
+      // Summary: Called when the [Enter] key is pressed
+      // Syntax:
+      // __OnEnterKey ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private __OnEnterKey()
+      
+      nCursor, nEndCursor		are int			= ( EDT_MARKDOWN.Cursor, EDT_MARKDOWN.CursorEnd )
+      bEndLine				is boolean		= EDT_MARKDOWN[[ nCursor on 2 ]] = CR _or_ nCursor > Length(EDT_MARKDOWN)
+      
+      if bEndLine then
+      	
+      	nStartSize	is int	= 2
+      	nStartDiff	is int	
+      	nStartPos	is int	= Position(EDT_MARKDOWN, CR, nCursor - 1, FromEnd)
+      	if nStartPos = 0 then nStartPos = 1
+      	
+      	if EDT_MARKDOWN[[ nStartPos on 2 ]] = CR then nStartPos += 2
+      	while EDT_MARKDOWN[[ nStartPos + nStartDiff on 1 ]] = TAB 
+      		nStartDiff ++
+      		nStartSize ++
+      	end
+      	
+      	sIndex			is string		
+      	bOrderedList	is boolean		= RegexMatch(ExtractString(EDT_MARKDOWN[[ nStartPos + nStartDiff to ]], 1, CR), "([0-9]+)\. .*", sIndex)
+      	bTabs			is boolean		= RegexMatch(ExtractString(EDT_MARKDOWN[[ nStartPos + nStartDiff to ]], 1, CR), "([%TAB%]+).*", sIndex)
+      	
+      	// Unordered or ordered list
+      	if EDT_MARKDOWN[[ nStartPos + nStartDiff on 2 ]] = "- " _or_ EDT_MARKDOWN[[ nStartPos + nStartDiff on 2 ]] = "* " _or_ EDT_MARKDOWN[[ nStartPos + nStartDiff on 2 ]] = "* " _or_ bOrderedList _or_ bTabs then
+      		
+      		nEndPos is int = Position(EDT_MARKDOWN, CR, nStartPos + nStartDiff) - 1
+      		if nEndPos < 1 then nEndPos = Length(EDT_MARKDOWN)
+      		
+      		nStartSize += Length(sIndex)
+      		
+      		
+      		// If on an empty line
+      		if Length(EDT_MARKDOWN[[ nStartPos + nStartDiff to nEndPos ]]) = nStartSize then
+      			// Delete empty line
+      			EDT_MARKDOWN[[ nStartPos to nEndPos ]]	= ""
+      			EDT_MARKDOWN.Cursor						= nStartPos + 1
+      			EDT_MARKDOWN.CursorEnd					= nStartPos
+      			return False
+      		end
+      		
+      		// End of the text
+      		if nCursor > Length(EDT_MARKDOWN) then
+      			
+      			if bOrderedList then
+      				EDT_MARKDOWN += CR + ( Val(sIndex) + 1 ) + ". "
+      			else
+      				EDT_MARKDOWN += CR + EDT_MARKDOWN[[ nStartPos on nStartSize ]]
+      			end
+      			
+      			EDT_MARKDOWN.Cursor		= Length(EDT_MARKDOWN) + 1
+      			EDT_MARKDOWN.CursorEnd	= 0
+      			
+      			// In the text
+      		else
+      			
+      			if bOrderedList then nStartSize += 2 
+      			
+      			if bOrderedList then
+      				EDT_MARKDOWN[[ nCursor on nStartSize ]] = CR + ( Val(sIndex) + 1 ) + ". " + CR + ( Val(sIndex) + 2 ) + ". "
+      				nStartSize -= 2
+      			else
+      				EDT_MARKDOWN[[ nCursor on nStartSize ]] = CR + EDT_MARKDOWN[[ nStartPos on nStartSize ]] + CR
+      			end
+      			
+      			EDT_MARKDOWN.Cursor								= nCursor + 2 + nStartSize
+      			EDT_MARKDOWN.CursorEnd							= nCursor
+      		end
+      		
+      		return False			
+      	end			
+      end
+      
+      
+      
+      return True
+     type : 458752
+   -
+     name : Load
+     procedure_id : 1434955643136854331
+     type_code : 14
+     group : 4
+     code : |1-
+      // Summary: Loads a Markdown file
+      // Syntax:
+      //Load (<sFile> is string)
+      //
+      // Parameters:
+      //	sFile (ANSI string): File to load
+      // Return value:
+      // 	None
+      //
+      procedure Load( sFile is string )
+      
+      if __MyInternalWin.AllowOpening = False then
+      	return
+      end
+      
+      if fFileExist(sFile) = False then
+      	ErrorThrow(404, "Invalid file")
+      	return
+      end
+      
+      if CheckModifiedToSave() = False then
+      	return
+      end
+      
+      EDT_MARKDOWN.Extra.CurrentFile = sFile
+      
+      // Assigns
+      sMarkdown is string = fLoadText(sFile)
+      Assigns( sMarkdown )
+      
+      if __AssociatedTab <> Null then
+      	__AssociatedTab.Caption = fExtractPath(sFile, fFile + fExtension)		
+      end
+     type : 458752
+   -
+     name : Save
+     procedure_id : 1434955643136919867
+     type_code : 14
+     group : 4
+     code : |1-
+      // Summary: Saves the Markdown text
+      // Syntaxe :
+      //[ <Résultat> = ] Save (<sFile> est chaîne)
+      //
+      // Paramètres :
+      //	sFile (chaîne ANSI) : File to save
+      
+      // Return value:
+      // 	boolean: True if the Markdown text was saved, False otherwise
+      procedure Save( local sFile is string )
+      
+      if sFile = "" then
+      	
+      	// Opens the file picker
+      	sFile = fSelect("", "", "Save as...", "All files (*.*)" + TAB + "*.*" + CR + "Markdown documents (*.MD)" + TAB + "*.MD", "MD", fselCreate + fselExist)
+      	if sFile = "" then
+      		return False			
+      	end		
+      end
+      
+      // Save
+      sMarkdown is string = EDT_MARKDOWN
+      if fSaveText(sFile, sMarkdown) then
+      	
+      	EDT_MARKDOWN.Extra.CurrentFile		= sFile
+      	EDT_MARKDOWN.Modified				= False
+      	
+      	if __AssociatedTab <> Null then
+      		__AssociatedTab.Static = fExtractPath(sFile, fFile + fExtension)
+      	end
+      	
+      	return True	
+      end
+      
+      return False
+     type : 458752
+   -
+     name : OnClose
+     procedure_id : 1434955643136985403
+     type_code : 14
+     code : |1-
+      // Summary: Call when the tab is closed
+      // Syntax:
+      //[ <Result> = ] OnClose ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: True if able to close, False otherwise
+      //
+      procedure restreinte OnClose() : boolean
+      return CheckModifiedToSave()
+     type : 458752
+   -
+     name : Assigns
+     procedure_id : 1434955643137050939
+     type_code : 14
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //Assigns (<sMarkdown> is string)
+      //
+      // Parameters:
+      //	sMarkdown (ANSI string) : <specify the role of sMarkdown>
+      // Return value:
+      // 	None
+      //
+      procedure Assigns( sMarkdown is string )
+      
+      // Assigns	
+      EDT_MARKDOWN						= sMarkdown
+      EDT_MARKDOWN.Modified				= False
+      
+      // Displays
+      DisplayMarkdown()
+     type : 458752
+   -
+     name : CheckModifiedToSave
+     procedure_id : 1434955643137116475
+     type_code : 14
+     code : |1-
+      // Summary: Checks whether we need to save
+      // Syntax:
+      //[ <Result> = ] CheckModifiedToSave ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean : True if we can continue, False otherwise
+      //
+      procedure private CheckModifiedToSave()
+      
+      if __MyInternalWin.AllowSaving then
+      	if EDT_MARKDOWN.Modified then
+      		switch Dialog("The current changes have not been saved. Save them now?", [ "Save", "Don't save", "Undo" ] , 1, 3)
+      			case 1
+      				
+      				// Saves
+      				if Save( ( EDT_MARKDOWN.Extra.CurrentFile..Exist ? EDT_MARKDOWN.Extra.CurrentFile else "" ) ) = False then
+      					return False
+      				end
+      				
+      			case 3
+      				return False
+      		end
+      	end
+      end
+      
+      return True
+     type : 458752
+   -
+     name : __ChangeSize
+     procedure_id : 1434955643137182011
+     type_code : 14
+     code : |1-
+      // Summary: Run at each size change
+      // Syntax:
+      // __ChangeSize ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private __ChangeSize()
+      
+      L is real
+      if __MyInternalWin.LivePreview then
+      	L									= ( LAYOUT_MARKDOWN.Width - LAYOUT_MARKDOWN.MarginInterCell ) / 2
+      	
+      	LAYOUT_MARKDOWN[ 1 ].Largeur		= L
+      	EDT_MARKDOWN.Width					= L
+      	LAYOUT_MARKDOWN[ 2 ].Largeur		= L
+      	SC_MARKDOWN.Width					= L
+      else
+      	
+      	L								= LAYOUT_MARKDOWN.Width
+      	LAYOUT_MARKDOWN[ 1 ].Largeur	= L
+      	EDT_MARKDOWN.Width				= L	
+      end
+     type : 458752
+  properties :
+   -
+     name : ""
+     identifier : 0x13e9fc8e01a3493b
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public LayoutEditionAvailable() : boolean
+         return BTN_COMMAND_VIEW.Visible
+        type : 1966080
+      -
+        code : |1-
+         procedure public LayoutEditionAvailable( bValue is boolean )
+         BTN_COMMAND_VIEW.Visible = bValue
+        type : 2031616
+     template_refs : []
+   -
+     name : AllowOpening
+     identifier : 0x13ea0dff014bf0c2
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique AllowOpening()
+         RETURN BTN_COMMAND_OPEN.Visible
+        type : 1966080
+      -
+        code : |1-
+         procédure publique AllowOpening( bValue is boolean )
+         BTN_COMMAND_OPEN.Visible = bValue
+        type : 2031616
+     template_refs : []
+   -
+     name : AllowSaving
+     identifier : 0x13ea0e45015f0242
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique AllowSaving()
+         RETURN BTN_COMMAND_SAVE.Visible
+        type : 1966080
+      -
+        code : |1-
+         procédure publique AllowSaving( bValue is boolean )
+         BTN_COMMAND_SAVE.Visible = bValue
+        type : 2031616
+     template_refs : []
+   -
+     name : AllowExport
+     identifier : 0x13ea0e66019c80b9
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procédure publique AllowExport()
+         return GR_EXPORT.Visible
+        type : 1966080
+      -
+        code : |1-
+         procedure public AllowExport( bValue is boolean )
+         GR_EXPORT.Visible = bValue
+         if bValue then
+         	BTN_COMMAND_VIEW.X = BTN_COMMAND_COPY.X - ( BTN_COMMAND_VIEW.Width + CoordinateEditorToScreen(6) )
+         else
+         	BTN_COMMAND_VIEW.X = BTN_COMMAND_EXPORT.X
+         end
+        type : 2031616
+     template_refs : []
+   -
+     name : LightMode
+     identifier : 0x13ea0ece01dc1776
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public LightMode()
+         return __MyInternalWin.Extra.LightMode..Exist ? __MyInternalWin.Extra.LightMode else False
+        type : 1966080
+      -
+        code : |1-
+         procedure public LightMode( bValue is boolean )
+         
+         __MyInternalWin.Extra.LightMode = bValue
+         _LightMode = bValue
+         
+         if bValue then
+         	__MyInternalWin.CouleurFond	= White
+         	STC_DIVIDE.BackgroundColor		= White
+         	EDT_MARKDOWN.BackgroundColor	= White
+         	SC_MARKDOWN.BackgroundColor		= 0xFEFEFE
+         else
+         	__MyInternalWin.CouleurFond	= 0x202020
+         	STC_DIVIDE.BackgroundColor		= 0x202020
+         	EDT_MARKDOWN.BackgroundColor	= 0xF1EFEF
+         	SC_MARKDOWN.BackgroundColor		= 0xDEDEDE
+         end
+        type : 2031616
+     template_refs : []
+   -
+     name : LivePreview
+     identifier : 0x13ea0f1e026151bb
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public LivePreview() : boolean
+         return layout_MARKDOWN[ 2 ].Visible
+        type : 1966080
+      -
+        code : |1-
+         procedure public LivePreview( bValue is boolean )
+         LAYOUT_MARKDOWN[ 2 ].Visible = bValue
+         __ChangeSize()
+        type : 2031616
+     template_refs : []
+   -
+     name : AssociatedTab
+     identifier : 0x13ea0f5902a736bc
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public AssociatedTab()
+         return __AssociatedTab
+        type : 1966080
+      -
+        code : |1-
+         procedure public AssociatedTab( oValue is Control )
+         __AssociatedTab <- oValue
+        type : 2031616
+     template_refs : []
+   -
+     name : Modified
+     identifier : 0x13ea0f7e0320c5cd
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public Modified()
+         return EDT_MARKDOWN.Modified
+        type : 1966080
+      -
+        code : |1-
+         procedure public Modified( bValue is boolean )
+         EDT_MARKDOWN.Modified = bValue
+        type : 2031616
+     template_refs : []
+   -
+     name : LayoutEditionAvailable
+     identifier : 0x13ea0fcb0353f2b4
+     type_code : 103
+     p_codes :
+      -
+        code : |1-
+         procedure public LayoutEditionAvailable()
+         return BTN_COMMAND_VIEW.Visible
+        type : 1966080
+      -
+        code : |1-
+         procedure public LayoutEditionAvailable( bValue is boolean )
+         BTN_COMMAND_VIEW.Visible = bValue
+        type : 2031616
+     template_refs : []
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x136cce7a000ad832
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

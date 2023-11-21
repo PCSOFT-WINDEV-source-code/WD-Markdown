@@ -1,0 +1,191 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MARKDOWN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MARKDOWN
+ identifier : 0x23e9fc8d0ef245b1
+ internal_properties : CAAAAAgAAAAOy7cit7+4LP9f7mP9f8Yd7bNt7RyvGpcsU6UipvTiG8+P+e63KiXM9w8uGYiG3POkv0jUgZULdSwHHohzC2AHZ8VjXeJ9WHGSNI/f8SgDjeBwsdlNPC/o5op9vpHywf0+9zecIjRXjkCh/o3kceWg+xBLVJ62safz9WAxsmbp63MjR5/vfzYRIfav9hQd+gYpsjvZ5McE2rK04wmrSbgmCH5fVhMXu1/3XhcJ7+MHXXSAhBXJhzyvRruSzz7F1n6IVAzB57WiUidpjU1p86Ssimuhg5hdCVTT9pNLpnr5sAbz2cKYC/yg0HY3m5piNcovzsKZShzPywNL6dBu5tx55aoONNR4nwdvbeFRRYWxjwQ85CfNlLMKsIohK3/UJnM3IuVALxXwJLyy2xFarfumA+lVqSoECToaV1fxnB6g+XFop3nfjEKK7udrBfPqLPFxRnZ2pp1iuTsqRRl5o1YlJQvjj9c5adAaSlP15hzP5COuKvOHiKpQOzfpngbN+DvDWEMxpm3Hnj4z4UOmbSpX6HfNB9DKpSXhxBS7tnEjkPyjR1O5ER8FkoeH+GJSZ7VW4efTc9M3nmgV0VadlQS8k8Lc94yfDSC0XvK5QqMiPfeBEW4fqCXUMk6Zql71f7B37tzdLbNrPxf2VJaA7qRd4P3t/bXl9FQiwdxwf6ORVqDHAxGqe/gfUgY88BX7AwR9d+x0Hif/nq36M0Z2BDOEwdSkoKP9kCS4hoPlCxa71atQ1grO3yfm
+ properties :
+  width : 848
+  height : 600
+  widthClient : 846
+  heightClient : 569
+ controls :
+  -
+    name : TAB_MD
+    identifier : 0x23e9fc8d0ef445b1
+    internal_properties : CAAAAAgAAAAKJlEEVP10k3W4SqIF+7nj6ZpSrfHSY3W0FkRpdGwVo+jsO1OeWrB2vsX0B3IMBYIUTVKBBVsdk1BvJKOGkwnurLsjt8EE5fIk4EZV/wtvzsAAF5j8OUf2jGWcM/xXW1Z7u+blzb4solUSFnQs2F6qEFLx1fk/42CI5c5vKs0hLInEV2VU9B2LiLCaSBZ1cYRMK1Fi9q3SwUbhDmjEnIa7Lv/aibQQNFOsQTc8aer+iy8lqJoHMgDALR6OFop+Pm14D6HKZ7KDG3yDuIxIgIE6GjjIIWdPriPa+T1kU0txxiPvXi+LVCC0E0nIf942bKdmJ7c5uNnNeM5tj226UxxKmcdm1+5XdF3KJ8hV37L5JUE5vEAOyavjqSFDsGX9oUNypNJ4gjJEzR7o2/H6wJQZfhQpj/S5wfF3z6MWghr3IzNUlFpRTRuys8SaiPYKdzhWjYJG9M8fCACmWAujG0nXDxlVnB8wIE3YVM6Iz0mGExFXhlK6PztBDMerhllPB2m2CTnUvyMCw8rcER2Cnrnv44jF52jmbo23/hkcVOXmnNpdm04gch2/rsCVtNiewGprrWgI26FiRoegTaOlTxVmiH0fw3nDVZOWcY99P3IWN/FxHxHScr72gIWCyha8wj53Mq+2eJxI3N928Hr10YsAD9KsympmFn16sc17St0x33buAXuL96L7mJ7CKwUeP5QBMxImLoFnUczlSDISF8a3MuGMpXEZZLUSZ33jgGhh8J3VCisa04VQO3u0PA5NAhG0V1paTcmIJp1Q6te8Z3pMjoWKWF51lQOmZVjHF8lCJo8vdg1xv/UHpEwiiDoJAx1T9Y5+osJW6wMaiq4Q7Ms/ZYzc6xVWmGYLSi5JTDg4uNq8aKhmPEypfcn/gzyemAKOkIRfglwEgqkB0Q5CtO1SbaS24ohaMBTPJ85MMob+a/yccEoVHREfIr7oc2rA8Gpr5SPRjV10Fc3GvuoTNOwkUcndXcGh2kA6+Yt+OSWLvzNQs+uQrh0jP6GBJNVRnmXwk43DF3wm94G//AXuXZs9Vtf7MpcskdXUWBz/h0a4E6WO7/Lx7fDCIfNh4brdtJxNw1TqOtWJiKxomKm6JuKXdbftw/IbaG7S8VEhEmCReR8b
+    properties :
+     y : 6
+     width : 848
+     height : 565
+    tabs : []
+    type : 16
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+         BTN_NEW.ExecuteProcess(trtClick)
+        type : 235
+      -
+        code : |1-
+         procedure private __Close( TabCtrl is Control )
+         
+         OnTabClose( TabCtrl )
+        type : 236
+      -
+        code : |1+
+         procedure private __Update( TabCtrl is Control )
+        type : 17
+  -
+    name : BTN_NEW
+    identifier : 0x23e9fc8d0ef345b1
+    internal_properties : CAAAAAgAAAD5skLv+GnB0nKRp6oaPWvemCtQQJce+kqcsjv7rRog/+2gXZWoZEPNvomz3TrzOgrEM40Z/q0b3nx8jj3vJjOzT8lIqVH0X2a3bc+ftYbueKNLZ7Ah5U7aZsMXnzjBOMiDw0r7vP0m5j3jvbxnQhhH96dn4mfFlYNDRF8giot3UawPg7tLTrX8M1ADEio0eLf0plcuKi4JyTV0/Fe/xXsGNYY8G3clJcZXPS07IjHnYIs1+upyU5p3nd6dMB5CsHRIUhW8LP/BIWbiTqueFa084ixD8qx9k59wInIbfexcthMCL/iEOtPUmPuhHHqZyNleEKligFOp2ZtRXTFvZ6UeWI+cdhCW2G/xaYcmHiTW1ODf/hDh9xPVWtcjXp7qU8O+54rzaoZD91vOxoIsYS5Sf7OoIpzrj3ZWtctdyrF97RZRFZMwoc6t2yn/ybNoQe/RPbsXl97tAC5GAlTS7lklNXLJmzOFV6XTBGVYkUvGaba+G1yKUrNROH5lTFDR5H7z/UkTIWk7syFakn49znQdDIC3pN9UlVl44qeIXDUINMyq8XIJBagCK+TyDB3VUd2BLF1Kwb4prDCaywDFzuvG3pid6ZDQqpfspNOGA0OLZySTyvdGUmneCtszE0rkX4y5WZwum5h1KjJeUZ0sJ+WfTjz3OqCMjdUGbRhyXdd7QZVzvtIvzUBF73Y2cY7jWKabIqGYlGVrfIHOjikrQzfwQ/309WZBNBuj3gHJVFa326zFt1ZfkNxKMgc2cxmyINhccc40qQs+t+VfSmAxnnnim1qccKhr2h7eEYGo1nH5uBxXSzW045xxyi0BrqQUfaGpB39QpMw6XbgTyd+4R7KZsbRq2ipOrzc1Y0YsN29gjE3aGUhinmhLyR+bLdtkP3mPsOCcuBEE+uhqeES3MfX8IjpMWr43vpVZP4i7+4S0T1+Fw6HikAUCXPzdHnnA8McojOZELoe7Yd91+0/E/LaKXINfC1gUUBJ+TOQeHNhQWRuUfQUmfQ==
+    properties :
+     x : 398
+     y : 260
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         TAB_MD.Visible = True
+         
+         OnNewTab( TAB_MD.Open("New document", IW_EDITOR) )
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAABgnX2b44ip/0+dFkWIcZ3UJFlESy3OUB3wO5Qm7mevlCLdFjCyI3JIggvqH19+MvzHpl9/B9J9tS7hT0oozBulWlov7UR66HEvpEvUw0z5rDRS1Z7p+wdNt679Grta9dZiBX0QSlauiZBtVH4BhImVfjGzfJgEI7yrxVvlYeLl50T0XcrIZxSl3b5vn/iegCKem1+ATnY7gt3YKrGh4GHDZFJS1W9LBtSrZXsi5NcyuGwhXbRv+FFskVwtnOB5ewrO+zjW5Xy2Z8nvDGliFs99N2Xxj/PQbd/Pt/ta38g=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      Editors is ASSOCIATIVE ARRAY of champ
+      
+      ExplorerAccept( True, MyWindow, procedure( nNbFiles is int, sListOfFiles is string ) { 
+      
+      // Only the first file is taken into account
+      for each string sFile of sListOfFiles separee by CR
+      	
+      	if fFileExist(sFile) then
+      		
+      		// Loads the file
+      		OnNewTab( TAB_MD.Open(fExtractPath(sFile, fFile + fExtension), IW_EDITOR, sFile) )			
+      	end	
+      end
+      } )
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      // Close open tabs
+      for each TabCtrl, Alias of Editors	
+      	OnTabClose( TabCtrl )
+      	TAB_MD.Close(Alias)
+      end
+     type : 2
+  procedures :
+   -
+     name : OnNewTab
+     procedure_id : 1434955638838740401
+     type_code : 14
+     code : |1-
+      // Summary: Executed when a tab is opened
+      // Syntax:
+      // OnNewTab ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure private OnNewTab( TabCtrl is Control )
+      
+      if TAB_MD.Count > 0 then
+      	TAB_MD.Visible = True
+      end
+      
+      // Stores
+      Editors[ TabCtrl..Alias ] <- TabCtrl
+      
+      TabCtrl.IW_EDITOR.AssociatedTab = TabCtrl
+     type : 458752
+   -
+     name : OnTabClose
+     procedure_id : 1434955638838805937
+     type_code : 14
+     code : |1-
+      // Summary: Triggered when a tab is closed
+      // Syntax:
+      //OnTabClose (<Tab> is Control)
+      //
+      // Parameters:
+      //	Tab (Control): Tab
+      // Return value:
+      // 	None
+      //
+      procedure private OnTabClose( TabCtrl is Control )
+      
+      // Notifies the editor that the tab has been closed
+      if TabCtrl <> Null then
+      	if TabCtrl.IW_EDITOR.OnClose()	= False then
+      		SetFocusAndReturnToUserInput(WIN_MARKDOWN)
+      	end
+      end
+      
+      // Stores
+      Delete(Editors, TabCtrl..Alias)
+      
+      if TAB_MD.Count <= 1 then
+      	TAB_MD.Visible = False
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB/E2SZRb9VnQU5+PivybZwVafwXhgCAWSYftdyjxWxFx7cb58ydr0ud57ZygZVSIIWCI/Me2Ok
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x136cce23000487b6
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
